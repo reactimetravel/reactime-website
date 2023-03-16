@@ -1,4 +1,4 @@
-//import Image from 'next/image';
+import Image from "next/image";
 import { useState } from "react";
 
 const people: string[][] = [
@@ -77,7 +77,7 @@ const people: string[][] = [
   ["Vincent Nguyen", "VNguyenCode"],
   ["Wilton Lee", "wiltonlee948"],
   ["Yujin Kang", " yujinkay"],
-  ["Zachary Freeman", " zacharydfreeman"],
+  ["Zachary Freeman", "zacharydfreeman"],
 ];
 
 function replace(e: React.SyntheticEvent<HTMLImageElement>): void {
@@ -121,15 +121,19 @@ export function Profile({ profile, name }: profileType) {
   const [imageError, setImageError] = useState(false);
   return (
     <div className="space-y-4">
-      {/* <Image
+      <Image
         width={100}
         height={100}
-        src={imageError ? '/profileFallback.png' : 'https://github.com/' + profile + '.png'}
-        className='mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24'
+        src={
+          imageError
+            ? "/profileFallback.png"
+            : "https://github.com/" + profile + ".png"
+        }
+        className="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24"
         onError={(e) => setImageError(true)}
-        alt='missing-profile-image'
-        data-testid='image'
-      /> */}
+        alt="missing-profile-image"
+        data-testid="image"
+      />
       <div className="space-y-2">
         <div className="text-xs font-medium lg:text-sm">
           <h3>{name}</h3>
