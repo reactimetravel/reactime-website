@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import { useState } from "react";
 
 const people: string[][] = [
@@ -121,7 +121,7 @@ export function Profile({ profile, name }: profileType) {
   const [imageError, setImageError] = useState(false);
   return (
     <div className="space-y-4">
-      {/* <Image
+      <Image
         width={100}
         height={100}
         src={
@@ -133,7 +133,7 @@ export function Profile({ profile, name }: profileType) {
         onError={(e) => setImageError(true)}
         alt="missing-profile-image"
         data-testid="image"
-      /> */}
+      />
       <div className="space-y-2">
         <div className="text-xs font-medium lg:text-sm">
           <h3>{name}</h3>
