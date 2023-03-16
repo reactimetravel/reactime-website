@@ -14,7 +14,7 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    loader: "akamai",
+    // loader: "akamai",
     remotePatterns: [
       {
         protocol: "https",
