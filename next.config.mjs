@@ -14,8 +14,9 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    // loader: "akamai",
-    unoptimized: true,
+    loader: "akamai",
+    path: "",
+    // unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
