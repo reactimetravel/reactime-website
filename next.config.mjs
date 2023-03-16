@@ -15,6 +15,7 @@ const config = {
   },
   images: {
     remotePatterns: [
+      //adding comment to see if it changes outcome of github page build error
       {
         protocol: "https",
         hostname: "github.com",
