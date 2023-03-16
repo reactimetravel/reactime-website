@@ -51,12 +51,15 @@ const people: string[][] = [
   ["Kim Mai Nguyen", "Nkmai"],
   ["Kris Sorensen", "kris-sorensen"],
   ["Kristina Wallen", "kristinawallen"],
+  ["Lance Ziegler", "lanceziegler"],
   ["Lina Shin", "rxlina"],
   ["Louis Lam", "llam722"],
   ["Nate Wa Mwenze", "nmwenz90"],
   ["Nathan Richardson", "BagelEnthusiast"],
+  ["Ngoc Zwolinski", "Nok-Nok"],
   ["Ozair Ghulam", "OzairGh"],
   ["Peng Dong", "d28601581"],
+  ["Peter Lam", "dev-plam"],
   ["Prasanna Malla", "prasmalla"],
   ["Quan Le", "blachfog"],
   ["Rajeeb Banstola", "rajeebthegreat"],
@@ -74,6 +77,7 @@ const people: string[][] = [
   ["Vincent Nguyen", "VNguyenCode"],
   ["Wilton Lee", "wiltonlee948"],
   ["Yujin Kang", " yujinkay"],
+  ["Zachary Freeman", " zacharydfreeman"],
 ];
 
 function replace(e: React.SyntheticEvent<HTMLImageElement>): void {
