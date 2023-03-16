@@ -14,8 +14,8 @@ const config = {
     defaultLocale: "en",
   },
   images: {
+    loader: "akamai",
     remotePatterns: [
-      //adding comment to see if it changes outcome of github page build error
       {
         protocol: "https",
         hostname: "github.com",
