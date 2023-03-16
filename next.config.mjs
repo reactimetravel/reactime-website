@@ -15,6 +15,7 @@ const config = {
   },
   images: {
     // loader: "akamai",
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
