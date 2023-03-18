@@ -18,6 +18,7 @@ const config = {
     // loaderFile: "./akamai.ts",
     // path: "",
     // unoptimized: true,
+    disableStaticImages: true,
     remotePatterns: [
       {
         protocol: "https",
