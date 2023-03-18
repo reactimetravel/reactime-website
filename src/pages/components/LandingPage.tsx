@@ -2,7 +2,7 @@ import { ChevronRightIcon, StarIcon } from "@heroicons/react/20/solid";
 import { string } from "prop-types";
 import TeamSection from "../components/TeamSection";
 import FeaturesSection from "../components/FeaturesSection";
-//import Image from 'next/image';
+// import Image from 'next/image';
 import Blogs from "./Blogs";
 import { useState } from "react";
 import { trpc } from "../../utils/trpc";
