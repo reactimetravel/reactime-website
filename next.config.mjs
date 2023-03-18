@@ -13,12 +13,12 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  output: "export",
+  // output: "export",
   images: {
     // loader: "custom",
     // loaderFile: "./akamai.ts",
     // path: "",
-    unoptimized: true,
+    // unoptimized: true,
     // disableStaticImages: true,
     remotePatterns: [
       {
