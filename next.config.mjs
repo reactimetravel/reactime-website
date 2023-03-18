@@ -18,7 +18,7 @@ const config = {
     // loader: "custom",
     // loaderFile: "./akamai.ts",
     // path: "",
-    // unoptimized: true,
+    unoptimized: true,
     // disableStaticImages: true,
     remotePatterns: [
       {
