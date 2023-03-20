@@ -37,7 +37,7 @@ export default function LandingPage() {
                     alt="Reactime"
                   />
                 </div> */}
-                  <div className="mt-20">
+                  <div className="mt-8">
                     <div>
                       <a
                         target="_blank"
