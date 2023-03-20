@@ -13,13 +13,7 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  // output: "export",
   images: {
-    // loader: "custom",
-    // loaderFile: "./akamai.ts",
-    // path: "",
-    // unoptimized: true,
-    // disableStaticImages: true,
     remotePatterns: [
       {
         protocol: "https",

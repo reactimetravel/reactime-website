@@ -176,7 +176,8 @@ export default function LandingPage() {
                 </div>
                 <div className="relative -mr-40 pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
                   <img
-                    className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
+                    //! Removed tailwind elements: lg:h-full
+                    className="lg:max-w-auto w-full rounded-md pr-10 shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
                     src="/RTScreen.png"
                     alt=""
                   />

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useState } from "react";
-// import akamaiLoader from "../../../akamai";
 
 const people: string[][] = [
   ["Alex Gomez", "alexgomez9"],
@@ -123,7 +122,6 @@ export function Profile({ profile, name }: profileType) {
   return (
     <div className="space-y-4">
       <Image
-        // loader={akamaiLoader}
         width={100}
         height={100}
         src={
