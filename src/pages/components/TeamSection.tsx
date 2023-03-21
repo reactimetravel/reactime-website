@@ -100,7 +100,7 @@ export default function People(): JSX.Element {
           </div>
           <ul
             role="list"
-            className="mx-auto grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-8"
+            className="mx-auto grid grid-cols-3 gap-x-8 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-8"
           >
             <>
               {people.map((person) => (

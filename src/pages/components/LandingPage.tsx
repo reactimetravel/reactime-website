@@ -6,6 +6,7 @@ import FeaturesSection from "../components/FeaturesSection";
 import Blogs from "./Blogs";
 import { useState } from "react";
 import { trpc } from "../../utils/trpc";
+import GifFeatures from "./GifFeatures";
 
 export default function LandingPage() {
   const [name, setName] = useState("");
@@ -127,10 +128,6 @@ export default function LandingPage() {
                           <span className="font-medium text-rose-500">
                             1,800 users
                           </span>
-                          <StarIcon
-                            className="ml-2 mb-1 inline h-5 w-5 text-yellow-400"
-                            aria-hidden="true"
-                          />
                         </div>
                       </div>
                     </div>
@@ -190,6 +187,8 @@ export default function LandingPage() {
           </div>
           <div className="relative mt-16">
             <FeaturesSection />
+            {/* <Features /> */}
+            <GifFeatures />
             <Blogs />
             <TeamSection />
           </div>
