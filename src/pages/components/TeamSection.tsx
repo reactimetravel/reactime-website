@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
+import React from "react";
 
 const people: string[][] = [
   ["Alex Gomez", "alexgomez9"],

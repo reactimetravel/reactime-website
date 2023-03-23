@@ -7,6 +7,7 @@ import Blogs from "./Blogs";
 import { useState } from "react";
 import { trpc } from "../../utils/trpc";
 import GifFeatures from "./GifFeatures";
+import React from "react";
 
 export default function LandingPage() {
   const [name, setName] = useState("");

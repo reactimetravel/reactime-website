@@ -26,9 +26,9 @@ const GifFeatures = () => {
   const imageComponents = sections.map(({ gif }, i) => (
     <motion.div
       key={i}
-      initial={{ opacity: 0, x: 200 }}
-      animate={{ opacity: section === i ? 1 : 0, x: section === i ? 0 : 200 }}
-      transition={{ type: "spring", bounce: 0.25, duration: 0.5 }}
+      initial={{ opacity: 0, x: 30 }}
+      animate={{ opacity: section === i ? 1 : 0, x: section === i ? 0 : 30 }}
+      transition={{ type: "spring", bounce: 0.25, duration: 2 }}
     >
       {section === i && (
         <Image
@@ -36,7 +36,7 @@ const GifFeatures = () => {
           src={gif}
           // min-width={1500} // Size specific to match sizes of GIFs uploaded
           // height={500} // Size specific to match sizes of GIFs uploaded
-          style={{ minWidth: "1000px" }}
+          style={{}}
           layout="intrinsic"
           // style={{ position: "intrinsic" }}
           alt=""

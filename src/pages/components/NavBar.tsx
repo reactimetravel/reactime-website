@@ -31,8 +31,8 @@ export default function NavBar() {
     <Disclosure as="nav" className={NavBarSytle}>
       {({ open }) => (
         <>
-          <div className="max-w9xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="mx-6 flex h-16 items-center justify-between">
+          <div className="max-w9xl xs:m-auto mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mx-6 flex h-16 items-center sm:justify-between md:justify-between lg:justify-between">
               <div className="flex items-center">
                 <div className="ml-6 flex-shrink-0">
                   <img

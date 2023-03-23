@@ -1,3 +1,5 @@
+import React from "react";
+
 const posts = [
   {
     title: "Traveling through time with Reactime",
@@ -26,7 +28,7 @@ const posts = [
     description:
       "Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track, and visualize state changes. Reactime leverages React’s core reconciliation... ",
     date: "Oct 7, 2021",
-    datetime: "2020-10-07",
+    datetime: "2021-10-07",
     imageUrl:
       "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
     readingTime: "4 min",
