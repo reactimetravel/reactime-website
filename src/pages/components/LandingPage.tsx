@@ -107,7 +107,7 @@ export default function LandingPage() {
                           className="mt-8 block w-full rounded-md border border-transparent bg-rose-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
                           onClick={(e) => handleSubmit(e)}
                         >
-                          Notify me
+                          Notify me TESTINGGG
                         </button>
                       </div>
                     </form>
