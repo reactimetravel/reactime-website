@@ -36,7 +36,7 @@ const posts = [
       name: "Lina Shin",
       href: "https://rxlina.medium.com/",
       imageUrl:
-        "https://media-exp1.licdn.com/dms/image/C5603AQHQGFvRHt25WQ/profile-displayphoto-shrink_200_200/0/1623865299399?e=1676505600&v=beta&t=yDqgIaJOhO3oOWLROIH9rHPBHdVzDSV3VlB2axWqXr4",
+        "https://media.licdn.com/dms/image/C5603AQHQGFvRHt25WQ/profile-displayphoto-shrink_400_400/0/1623865299399?e=1684972800&v=beta&t=RMU4IZw13P1kJHCNCiYu3QF3coXDzA7rJWb9B-hyzr0",
     },
   },
   {
