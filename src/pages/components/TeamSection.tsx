@@ -56,7 +56,7 @@ const people: string[][] = [
   ["Louis Lam", "llam722"],
   ["Nate Wa Mwenze", "nmwenz90"],
   ["Nathan Richardson", "BagelEnthusiast"],
-  ["Ngoc Zwolinski", "ngoczwolinski"],
+  ["Ngoc Zwolinski", "Nok-Nok"],
   ["Ozair Ghulam", "OzairGh"],
   ["Peng Dong", "d28601581"],
   ["Peter Lam", "dev-plam"],
