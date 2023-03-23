@@ -34,9 +34,11 @@ const GifFeatures = () => {
         <Image
           className="image"
           src={gif}
-          width={1000} // Size specific to match sizes of GIFs uploaded
-          height={500} // Size specific to match sizes of GIFs uploaded
+          // min-width={1500} // Size specific to match sizes of GIFs uploaded
+          // height={500} // Size specific to match sizes of GIFs uploaded
+          style={{ minWidth: "1000px" }}
           layout="intrinsic"
+          // style={{ position: "intrinsic" }}
           alt=""
         />
       )}
@@ -44,10 +46,15 @@ const GifFeatures = () => {
   ));
 
   return (
-    <div className="container mx-auto">
-      <div className="m-auto">{imageComponents}</div>
-      <div className="flex flex-col justify-center gap-1">
-        {sectionComponents}
+    <div>
+      <h2 className="pt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        Click to demo the features!
+      </h2>
+      <div className="xs:flex-col container mx-auto flex-col font-bold sm:flex-col md:flex-col lg:flex-row">
+        <div className="m-auto pb-3">{imageComponents}</div>
+        <div className="xs:pt-20 mx-8 flex flex-col items-center justify-center gap-8">
+          {sectionComponents}
+        </div>
       </div>
     </div>
   );

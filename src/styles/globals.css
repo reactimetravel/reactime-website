@@ -3,5 +3,28 @@
 @tailwind utilities;
 
 body {
-    background-color: rgba(249, 250, 251);
+  background-color: rgba(249, 250, 251);
+}
+
+.container {
+  /* display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-gap: 3em; */
+  display: flex;
+  transform: scale(0.8);
+}
+
+/* Feature button styling */
+.section {
+  border: 1px solid lightgray;
+  width: 23em;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 30px 0;
+  cursor: pointer;
+}
+
+.image {
+  border-radius: 0.5rem;
+  margin: auto;
 }
