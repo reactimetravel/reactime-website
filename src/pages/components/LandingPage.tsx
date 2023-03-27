@@ -32,13 +32,6 @@ export default function LandingPage() {
             <div className="m-auto justify-center overflow-hidden lg:relative lg:py-40">
               <div className="m-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:mx-32 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-24 lg:px-8">
                 <div>
-                  {/* <div>
-                  <img
-                    className="absolute h-20 w-auto pl-60"
-                    src="https://i.imgur.com/ELBAyVb.png"
-                    alt="Reactime"
-                  />
-                </div> */}
                   <div className="mt-8">
                     <div>
                       <a

@@ -2,6 +2,26 @@ import React from "react";
 
 const posts = [
   {
+    title: "Reactime v18 - Better Than Ever",
+    href: "https://rxlina.medium.com/time-traveling-through-react-state-with-reactime-9-0-371dbdc99319",
+    category: {
+      name: "React, Remix, Next.js",
+      href: "https://medium.com/tag/react",
+    },
+    description:
+      "Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track, and visualize state changes. Reactime leverages React’s core reconciliation... ",
+    date: "Mar 28, 2023",
+    datetime: "2023-3-28",
+    imageUrl:
+      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+    readingTime: "5 min",
+    author: {
+      name: "Zachary Freeman",
+      href: "https://medium.com/@zdf2424",
+      imageUrl: "https://avatars.githubusercontent.com/u/61289768?v=4",
+    },
+  },
+  {
     title: "Traveling through time with Reactime",
     href: "https://medium.com/@reactime/reactime-v17-0-0-now-with-support-for-the-context-api-and-a-modern-ui-f0edf9e54dae",
     category: {
@@ -19,24 +39,6 @@ const posts = [
       name: "James Nghiem",
       href: "https://medium.com/@reactime",
       imageUrl: "https://github.com/jemzir.png",
-    },
-  },
-  {
-    title: "Reactime v18 Better Than Ever",
-    href: "https://rxlina.medium.com/time-traveling-through-react-state-with-reactime-9-0-371dbdc99319",
-    category: { name: "React, NextJS, Remix", href: "https://medium.com/tag/react" },
-    description:
-      "Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track, and visualize state changes. Reactime leverages React’s core reconciliation... ",
-    date: "Oct 7, 2021",
-    datetime: "2021-10-07",
-    imageUrl:
-      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "4 min",
-    author: {
-      name: "Lina Shin",
-      href: "https://rxlina.medium.com/",
-      imageUrl:
-        "https://media.licdn.com/dms/image/C5603AQHQGFvRHt25WQ/profile-displayphoto-shrink_400_400/0/1623865299399?e=1684972800&v=beta&t=RMU4IZw13P1kJHCNCiYu3QF3coXDzA7rJWb9B-hyzr0",
     },
   },
   {
