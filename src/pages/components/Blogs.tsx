@@ -22,9 +22,9 @@ const posts = [
     },
   },
   {
-    title: "Time-Traveling Through React State",
+    title: "Reactime v18 Better Than Ever",
     href: "https://rxlina.medium.com/time-traveling-through-react-state-with-reactime-9-0-371dbdc99319",
-    category: { name: "React", href: "https://medium.com/tag/react" },
+    category: { name: "React, NextJS, Remix", href: "https://medium.com/tag/react" },
     description:
       "Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track, and visualize state changes. Reactime leverages React’s core reconciliation... ",
     date: "Oct 7, 2021",
