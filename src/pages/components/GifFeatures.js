@@ -34,11 +34,8 @@ const GifFeatures = () => {
         <Image
           className="image"
           src={gif}
-          // min-width={1500} // Size specific to match sizes of GIFs uploaded
-          // height={500} // Size specific to match sizes of GIFs uploaded
           style={{}}
-          layout="intrinsic"
-          // style={{ position: "intrinsic" }}
+          // layout="intrinsic"
           alt=""
         />
       )}
