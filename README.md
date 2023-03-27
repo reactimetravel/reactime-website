@@ -7,7 +7,10 @@
 
 ### --- How to update changes to site ---
 
-Note: reactime-website is a subrepository within the Reactime repository. If reactime-website folder is empty, run command 'git submodule update --init'. Changes pushed to this subrepo via integrated terminal will apply to the reactime-website repository which will in turn update reacti.me(if in main branch) - to pull changes, be sure that you are within reactime-website subrepo, then git pull origin 'main', or whatever branch you are trying to pull from. 5. When a change is pushed to 'main' branch of reactime-website subrepo, app will automatically re-build and deploy via GitHub actions (double check you are inside an integrated terminal for reactime-website subrepository when pushing) 6. To check build progress or errors- Go to 'Actions' tab on reactime-website GitHub repo and from there you can view workflows and build progress/history
+Note: reactime-website is a subrepository within the Reactime repository. If reactime-website folder is empty, run command 'git submodule update --init'. Changes pushed to this subrepo via integrated terminal will apply to the reactime-website repository which will in turn update reacti.me(if in main branch) - to pull changes, be sure that you are within reactime-website subrepo, then git pull origin 'main', or whatever branch you are trying to pull from.
+
+1. When a change is pushed to 'main' branch of reactime-website subrepo, app will automatically re-build and deploy via GitHub actions (double check you are inside an integrated terminal for reactime-website subrepository when pushing)
+2. To check build progress or errors- Go to 'Actions' tab on reactime-website GitHub repo and from there you can view workflows and build progress/history
 
 \*\*\* IMPORTANT: In order to commit changes to reactime-website, you must login the reactime GitHub account and add you/your team members as collaborators!
 Settings > Collaborators > Add People
