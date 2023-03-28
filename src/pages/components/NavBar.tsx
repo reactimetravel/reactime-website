@@ -37,13 +37,14 @@ export default function NavBar() {
                 <div className="ml-6 flex-shrink-0">
                   <img
                     className="block h-9 w-auto lg:hidden"
-                    src="https://i.imgur.com/ELBAyVb.png"
-                    alt="Your Company"
+                    src="siteLogo.png"
+                    alt="Logo"
                   />
                   <img
                     className="hidden h-9 w-auto lg:block"
-                    src="https://i.imgur.com/ELBAyVb.png"
-                    alt="Your Company"
+                    // src="https://i.imgur.com/ELBAyVb.png"
+                    src="siteLogo.png"
+                    alt="Logo"
                   />
                 </div>
                 <h2 className="mt-2 pl-1 text-2xl font-bold">Reactime</h2>
