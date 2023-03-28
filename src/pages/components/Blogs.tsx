@@ -2,8 +2,8 @@ import React from "react";
 
 const posts = [
   {
-    title: "Reactime v18 - Better Than Ever",
-    href: "https://rxlina.medium.com/time-traveling-through-react-state-with-reactime-9-0-371dbdc99319",
+    title: "Reactime 18.0 - Better Than Ever",
+    href: "https://medium.com/@zdf2424/reactime-18-0-better-than-ever-148b81606257",
     category: {
       name: "React, Remix, Next.js",
       href: "https://medium.com/tag/react",
@@ -14,7 +14,7 @@ const posts = [
     datetime: "2023-3-28",
     imageUrl:
       "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "5 min",
+    readingTime: "4 min",
     author: {
       name: "Zachary Freeman",
       href: "https://medium.com/@zdf2424",

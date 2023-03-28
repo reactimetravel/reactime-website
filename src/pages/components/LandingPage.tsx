@@ -36,7 +36,7 @@ export default function LandingPage() {
                     <div>
                       <a
                         target="_blank"
-                        href="https://medium.com/@reactime/reactime-v17-0-0-now-with-support-for-the-context-api-and-a-modern-ui-f0edf9e54dae"
+                        href="https://medium.com/@zdf2424/reactime-18-0-better-than-ever-148b81606257"
                         className="inline-flex space-x-4"
                       >
                         <span className="rounded bg-rose-50 px-2.5 py-1 text-sm font-semibold text-rose-500">
