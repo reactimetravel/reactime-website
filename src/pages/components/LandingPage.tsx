@@ -59,10 +59,13 @@ export default function LandingPage() {
                         A Chrome Extension that lets you rewind time and replay
                         previous versions of your stateful React components.
                       </p>
+                      <p className="className=mt-6 mt-10 text-xl text-gray-500">
+                        Sign up for our newsletter!
+                      </p>
                     </div>
                     <form
                       action="#"
-                      className="mt-12 sm:flex sm:w-full sm:max-w-lg"
+                      className="mt-3 sm:flex sm:w-full sm:max-w-lg"
                     >
                       <div className="min-w-0 flex-1">
                         <label htmlFor="name" className="sr-only">
