@@ -1,9 +1,9 @@
 import {
   ArrowPathIcon,
-  CloudArrowUpIcon,
-  CogIcon,
+  //CloudArrowUpIcon,
+  //CogIcon,
   ArrowDownTrayIcon,
-  ServerIcon,
+  //ServerIcon,
   ClockIcon,
   CameraIcon,
   PresentationChartLineIcon,
