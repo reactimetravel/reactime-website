@@ -10,18 +10,21 @@ import GifFeatures from "./GifFeatures";
 import React from "react";
 
 export default function LandingPage() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const { mutate } = trpc.user.createUser.useMutation();
+  // This code is for the newsletter feature, which isn't set up yet.
+  // The previous team mentioned possibly using prisma to do so.
+  
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const { mutate } = trpc.user.createUser.useMutation();
 
-  const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    e.preventDefault();
-    // grab the information of name and email
-    // bundle those together to be an object to be sent to backend
-    mutate({ name, email });
-    setName("");
-    setEmail("");
-  };
+  // const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+  //   e.preventDefault();
+  //   // grab the information of name and email
+  //   // bundle those together to be an object to be sent to backend
+  //   mutate({ name, email });
+  //   setName("");
+  //   setEmail("");
+  // };
 
   return (
     <>
@@ -59,11 +62,12 @@ export default function LandingPage() {
                         A Chrome Extension that lets you rewind time and replay
                         previous versions of your stateful React components.
                       </p>
-                      <p className="className=mt-6 mt-10 text-xl text-gray-500">
+                      {/* This code is for the newsletter */}
+                      {/* <p className="className=mt-6 mt-10 text-xl text-gray-500">
                         Sign up for our newsletter!
-                      </p>
+                      </p> */}
                     </div>
-                    <form
+                    {/* <form
                       action="#"
                       className="mt-3 sm:flex sm:w-full sm:max-w-lg"
                     >
@@ -106,7 +110,7 @@ export default function LandingPage() {
                           Notify me
                         </button>
                       </div>
-                    </form>
+                    </form> */}
                     <div className="mt-6">
                       <div className="inline-flex items-center">
                         <div className="flex flex-shrink-0">
