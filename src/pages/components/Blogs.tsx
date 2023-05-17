@@ -5,7 +5,7 @@ const posts = [
     title: "What time is it? It's still Reactime!",
     href: "https://medium.com/@minzo.kim/what-time-is-it-its-still-reactime-d496adfa908c",
     category: {
-      name: "React, Typescript, React Testing Library",
+      name: "React, Open Source, Debugging ",
       href: "https://medium.com/tag/react",
     },
     description:
