@@ -2,6 +2,26 @@ import React from "react";
 
 const posts = [
   {
+    title: "What time is it? It's still Reactime!",
+    href: "https://medium.com/@minzo.kim/what-time-is-it-its-still-reactime-d496adfa908c",
+    category: {
+      name: "React, Open Source, Debugging ",
+      href: "https://medium.com/tag/react",
+    },
+    description:
+      "Reactime is a powerful open-source developer tool and Chrome extension designed for time travel and debugging in React applications, offering developers the ability to record, track, and visuali...",
+    date: "May 17, 2023",
+    datetime: "2023-05-17",
+    imageUrl:
+      "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    readingTime: "4 min",
+    author: {
+      name: "Minzo Kim",
+      href: "https://medium.com/@minzo.kim",
+      imageUrl: "https://i.imgur.com/57j4S1x.png",
+    },
+  },
+  {
     title: "Reactime 18.0 - Better Than Ever",
     href: "https://medium.com/@zdf2424/reactime-18-0-better-than-ever-148b81606257",
     category: {
@@ -9,7 +29,7 @@ const posts = [
       href: "https://medium.com/tag/react",
     },
     description:
-      "Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track, and visualize state changes. Reactime leverages React’s core reconciliation... ",
+      "Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track, and visualize state changes. Reactime leverages React’s core reconciliation algorithm... ",
     date: "Mar 28, 2023",
     datetime: "2023-3-28",
     imageUrl:
@@ -29,7 +49,7 @@ const posts = [
       href: "https://medium.com/tag/react-devtools",
     },
     description:
-      "Reactime v17, we have come a long way from beta. Now introducing full Context API support: thereby allowing developers to better visualize the states and ... ",
+      "Reactime v17, we have come a long way from beta. Now introducing full Context API support: thereby allowing developers to better visualize the states and... ",
     date: "Jan 3, 2023",
     datetime: "2023-1-03",
     imageUrl:
@@ -39,27 +59,6 @@ const posts = [
       name: "James Nghiem",
       href: "https://medium.com/@reactime",
       imageUrl: "https://github.com/jemzir.png",
-    },
-  },
-  {
-    title: "What time is it? Reactime!",
-    href: "https://medium.com/@robbytiptontol/inter-route-time-travel-with-reactime-d84cd55ec73b",
-    category: {
-      name: "React Devtools",
-      href: "https://medium.com/tag/react-devtools",
-    },
-    description:
-      "Reactime is a debugging tool that lets developers take snapshots of an application’s state data as well as time-travel through these snapshots. The snapshots display React...",
-    date: "Jun 16, 2022",
-    datetime: "2022-06-16",
-    imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "9 min",
-    author: {
-      name: "Robby Tipton",
-      href: "https://medium.com/@robbytiptontol",
-      imageUrl:
-        "https://miro.medium.com/fit/c/96/96/1*pi-RH2LRvsZA9vLZTvY2mg.jpeg",
     },
   },
 ];
@@ -76,7 +75,7 @@ export default function Blogs() {
             From the Blog
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-            See the blogs from the most recent updates and to the past years!
+            Read articles from previous releases!
           </p>
         </div>
         <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">

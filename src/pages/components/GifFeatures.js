@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import StateSnapShotGIF from "../../../public/new-reactime.gif";
-import HistoryTree from "../../../public/history-tree.gif";
-import ActionComparison from "../../../public/action-comparison.gif";
+import StateSnapShotGIF from "../../../public/v19/map.gif";
+import HistoryTree from "../../../public/v19/history.gif";
+import ActionComparison from "../../../public/v19/performance.gif";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -45,7 +46,7 @@ const GifFeatures = () => {
   return (
     <div>
       <h2 className="pt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        Click to demo the features!
+        Check out some of our features!
       </h2>
       <div className="xs:flex-col container mx-auto flex-col font-bold sm:flex-col md:flex-col lg:flex-row">
         <div className="m-auto pb-3">{imageComponents}</div>

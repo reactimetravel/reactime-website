@@ -15,19 +15,19 @@ const features = [
   {
     name: "State SnapShot Display",
     description:
-      "See your application state in a stylized and interactive format, for clear concise state management",
+      "See your application state in a stylized and interactive format for clear and concise state management",
     icon: CameraIcon,
   },
   {
     name: "Time Travel Rendering",
     description:
-      "Simulate any state change from your DOM history, with a simple click of a button",
+      "Rewind to previous state changes from your DOM history with a simple click of a button",
     icon: ClockIcon,
   },
   {
     name: "Action Comparison & Snapshot Series",
     description:
-      "Save a series of state snapshots and use it to analyze changes in component render performance between current and previous series of snapshots.",
+      "Save a series of state snapshots and use it to analyze changes in component render performance between current and previous series of snapshots",
     icon: ArrowPathIcon,
   },
   {
@@ -37,9 +37,9 @@ const features = [
     icon: PresentationChartLineIcon,
   },
   {
-    name: "Download, Upload, and Persist",
+    name: "Download State History",
     description:
-      "Save your state history for future tests. Keep your state changes on app reload",
+      "Easily save your state history as a JSON source file for future reference",
     icon: ArrowDownTrayIcon,
   },
   {

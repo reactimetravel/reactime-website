@@ -10,18 +10,21 @@ import GifFeatures from "./GifFeatures";
 import React from "react";
 
 export default function LandingPage() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const { mutate } = trpc.user.createUser.useMutation();
+  // This code is for the newsletter feature, which isn't set up yet.
+  // The previous team mentioned possibly using prisma to do so.
 
-  const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    e.preventDefault();
-    // grab the information of name and email
-    // bundle those together to be an object to be sent to backend
-    mutate({ name, email });
-    setName("");
-    setEmail("");
-  };
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const { mutate } = trpc.user.createUser.useMutation();
+
+  // const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+  //   e.preventDefault();
+  //   // grab the information of name and email
+  //   // bundle those together to be an object to be sent to backend
+  //   mutate({ name, email });
+  //   setName("");
+  //   setEmail("");
+  // };
 
   return (
     <>
@@ -36,14 +39,14 @@ export default function LandingPage() {
                     <div>
                       <a
                         target="_blank"
-                        href="https://medium.com/@zdf2424/reactime-18-0-better-than-ever-148b81606257"
+                        href="https://medium.com/@minzo.kim/what-time-is-it-its-still-reactime-d496adfa908c"
                         className="inline-flex space-x-4"
                       >
-                        <span className="rounded bg-rose-50 px-2.5 py-1 text-sm font-semibold text-rose-500">
+                        {/* <span className="rounded px-2.5 py-1 text-sm font-semibold text-rose-500">
                           What's new
-                        </span>
+                        </span> */}
                         <span className="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
-                          <span>Read about 18.0.0</span>
+                          <span>What's new in Reactime 19.0!</span>
                           <ChevronRightIcon
                             className="h-5 w-5"
                             aria-hidden="true"
@@ -53,17 +56,19 @@ export default function LandingPage() {
                     </div>
                     <div className="mt-6 sm:max-w-xl">
                       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        A time travel debugger for modern react apps
+                        Reactime: a time travel debugger for modern React
+                        applications
                       </h1>
                       <p className="mt-6 text-xl text-gray-500">
                         A Chrome Extension that lets you rewind time and replay
                         previous versions of your stateful React components.
                       </p>
-                      <p className="className=mt-6 mt-10 text-xl text-gray-500">
+                      {/* This code is for the newsletter */}
+                      {/* <p className="className=mt-6 mt-10 text-xl text-gray-500">
                         Sign up for our newsletter!
-                      </p>
+                      </p> */}
                     </div>
-                    <form
+                    {/* <form
                       action="#"
                       className="mt-3 sm:flex sm:w-full sm:max-w-lg"
                     >
@@ -106,7 +111,7 @@ export default function LandingPage() {
                           Notify me
                         </button>
                       </div>
-                    </form>
+                    </form> */}
                     <div className="mt-6">
                       <div className="inline-flex items-center">
                         <div className="flex flex-shrink-0">
@@ -123,7 +128,7 @@ export default function LandingPage() {
                           </span>{" "}
                           by over{" "}
                           <span className="font-medium text-rose-500">
-                            1,800 users
+                            1,900 users
                           </span>
                         </div>
                       </div>
@@ -174,7 +179,7 @@ export default function LandingPage() {
                     <img
                       //* lg:h-full w-full
                       className="rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
-                      src="/RTScreen.png"
+                      src="/v19/website-top-pic.png"
                       alt=""
                     />
                   </div>
