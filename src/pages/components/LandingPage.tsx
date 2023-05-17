@@ -42,11 +42,11 @@ export default function LandingPage() {
                         href="https://medium.com/@minzo.kim/what-time-is-it-its-still-reactime-d496adfa908c"
                         className="inline-flex space-x-4"
                       >
-                        <span className="rounded bg-rose-50 px-2.5 py-1 text-sm font-semibold text-rose-500">
+                        {/* <span className="rounded px-2.5 py-1 text-sm font-semibold text-rose-500">
                           What's new
-                        </span>
+                        </span> */}
                         <span className="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
-                          <span>Read about v19.0.0</span>
+                          <span>What's new in Reactime 19.0!</span>
                           <ChevronRightIcon
                             className="h-5 w-5"
                             aria-hidden="true"
