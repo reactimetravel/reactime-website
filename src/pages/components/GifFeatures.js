@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import StateSnapShotGIF from "../../../public/new-reactime.gif";
-import HistoryTree from "../../../public/history-tree.gif";
-import ActionComparison from "../../../public/action-comparison.gif";
+import StateSnapShotGIF from "../../../public/v19/map.gif";
+import HistoryTree from "../../../public/v19/history.gif";
+import ActionComparison from "../../../public/v19/performance.gif";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 
