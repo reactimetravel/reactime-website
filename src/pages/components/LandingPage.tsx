@@ -178,7 +178,7 @@ export default function LandingPage() {
                     <img
                       //* lg:h-full w-full
                       className="rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
-                      src="/RTScreen.png"
+                      src="/v19/website-top-pic.png"
                       alt=""
                     />
                   </div>
