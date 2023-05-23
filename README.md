@@ -1,6 +1,6 @@
 # Instructions for deployment to GitHub Pages. Credentials can be found in Google Spreadsheet.
 
-1. Log in to GitHub with reactimetravel account
+1. Log in to GitHub with reactimetravel gmail account
 2. Go to reactime-website repository > Settings > Pages
 3. reacti.me domain name is purchased through namecheap.com (instructions below)
 4. Under 'Build and Deployment', Source is set as 'GitHub Actions' and yaml file is auto-generated
@@ -20,7 +20,7 @@ Settings > Collaborators > Add People
 Note: domain purchased for 1 year, expires Mar 15, 2024
 
 1. To manage, go to namecheap.com > account > dashboard
-2. 'Recently active' > reactime.me > manage
+2. 'Recently active' > reacti.me > manage
 3. Under 'Advanced DNS' tab, you will see there is a list of 8 A Records, 4 of which are under host "@", and the other 4 as "www". Both groups of 4 have the same IP addresses as provided by GitHub pages. If you use another domain registrar in the future, make sure that you set it up like this with both the "@" and "www" for all IP addresses.
 
 # Note to future iterators
