@@ -97,7 +97,7 @@ export default function People(): JSX.Element {
         <div className="space-y-8 sm:space-y-12">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Our Contributors (TEST)
+              Our Contributors
             </h2>
             <p className="text-xl text-gray-500">
               All of the people who make Reactime awesome!
