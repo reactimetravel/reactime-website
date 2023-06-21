@@ -2,6 +2,26 @@ import React from "react";
 
 const posts = [
   {
+    title: "Reactime just keeps getting better",
+    href: "https://medium.com/@njhuemmer/reactime-just-keeps-getting-better-b37659ff8b71",
+    category: {
+      name: "React, Debugging, Open Source",
+      href: "https://medium.com/tag/react",
+    },
+    description:
+      "Reactime is an open-source tool for debugging and time travel in React applications while in development. It is a Chrome Extension that allows developers to monitor, record, and conceptualize chan...",
+    date: "June 21, 2023",
+    datetime: "2023-06-21",
+    imageUrl:
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyNDYxNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+    readingTime: "4 min",
+    author: {
+      name: "Nick Huemmer",
+      href: "https://medium.com/@njhuemmer",
+      imageUrl: "https://i.imgur.com/6bJiyk9.png",
+    },
+  },
+  {
     title: "What time is it? It's still Reactime!",
     href: "https://medium.com/@minzo.kim/what-time-is-it-its-still-reactime-d496adfa908c",
     category: {
@@ -39,26 +59,6 @@ const posts = [
       name: "Zachary Freeman",
       href: "https://medium.com/@zdf2424",
       imageUrl: "https://avatars.githubusercontent.com/u/61289768?v=4",
-    },
-  },
-  {
-    title: "Traveling through time with Reactime",
-    href: "https://medium.com/@reactime/reactime-v17-0-0-now-with-support-for-the-context-api-and-a-modern-ui-f0edf9e54dae",
-    category: {
-      name: "React Debugging",
-      href: "https://medium.com/tag/react-devtools",
-    },
-    description:
-      "Reactime v17, we have come a long way from beta. Now introducing full Context API support: thereby allowing developers to better visualize the states and... ",
-    date: "Jan 3, 2023",
-    datetime: "2023-1-03",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "6 min",
-    author: {
-      name: "James Nghiem",
-      href: "https://medium.com/@reactime",
-      imageUrl: "https://github.com/jemzir.png",
     },
   },
 ];

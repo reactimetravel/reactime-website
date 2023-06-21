@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import StateSnapShotGIF from "../../../public/v19/map.gif";
-import HistoryTree from "../../../public/v19/history.gif";
-import ActionComparison from "../../../public/v19/performance.gif";
+import ReactimeOverview from "../../../public/v20/reactime-overview.gif";
+import SnapshotTimeTravel from "../../../public/v20/snapshot-time-travel.gif";
+import HistoryTab from "../../../public/v20/history-tab.gif";
+
 
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -60,22 +61,22 @@ const GifFeatures = () => {
 
 const sections = [
   {
-    title: "State SnapShot Display",
+    title: "Reactime Overview",
     // description:
     //   "See your application state in a stylized and intereactive format, for clear concise state management.",
-    gif: StateSnapShotGIF,
+    gif: ReactimeOverview,
   },
   {
-    title: "Time Travel Rendering",
+    title: "Snapshot Time Travel",
     // description:
     //   "Simulate any state change from your DOM history, with a simple click of a button.",
-    gif: HistoryTree,
+    gif: SnapshotTimeTravel,
   },
   {
-    title: "Action Comparison & Snapshot Series",
+    title: "History Tab",
     // description:
     //   "Save a series of state snapshots and use it to analyze changes in component render performance between current and previous series of snapshots.",
-    gif: ActionComparison,
+    gif: HistoryTab,
   },
 ];
 
