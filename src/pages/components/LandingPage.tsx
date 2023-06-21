@@ -39,7 +39,7 @@ export default function LandingPage() {
                     <div>
                       <a
                         target="_blank"
-                        href="https://medium.com/@minzo.kim/what-time-is-it-its-still-reactime-d496adfa908c"
+                        href="https://medium.com/@njhuemmer/reactime-just-keeps-getting-better-b37659ff8b71"
                         className="inline-flex space-x-4"
                       >
                         {/* <span className="rounded px-2.5 py-1 text-sm font-semibold text-rose-500">
