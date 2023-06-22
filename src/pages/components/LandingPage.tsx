@@ -39,14 +39,14 @@ export default function LandingPage() {
                     <div>
                       <a
                         target="_blank"
-                        href="https://medium.com/@minzo.kim/what-time-is-it-its-still-reactime-d496adfa908c"
+                        href="https://medium.com/@njhuemmer/reactime-just-keeps-getting-better-b37659ff8b71"
                         className="inline-flex space-x-4"
                       >
                         {/* <span className="rounded px-2.5 py-1 text-sm font-semibold text-rose-500">
                           What's new
                         </span> */}
                         <span className="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
-                          <span>What's new in Reactime 19.0!</span>
+                          <span>What's new in Reactime 20.0!</span>
                           <ChevronRightIcon
                             className="h-5 w-5"
                             aria-hidden="true"
@@ -179,7 +179,7 @@ export default function LandingPage() {
                     <img
                       //* lg:h-full w-full
                       className="rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
-                      src="/v19/website-top-pic.png"
+                      src="/v20/website-top-pic.png"
                       alt=""
                     />
                   </div>
