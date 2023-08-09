@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactimeOverview from "../../../public/v21/OverviewV21.gif";
-import SnapshotTimeTravel from "../../../public/v20/snapshot-time-travel.gif";
+import SnapshotTimeTravel from "../../../public/v21/timeTravelHistory_v21.gif";
 // import HistoryTab from "../../../public/v20/history-tab.gif";
 import impExp from "../../../public/v21/importExport_v21.gif";
 
@@ -73,7 +73,7 @@ const sections = [
     gif: SnapshotTimeTravel,
   },
   {
-    title: "Import Export",
+    title: "Import & Export",
     // description:
     //   "Save a series of state snapshots and use it to analyze changes in component render performance between current and previous series of snapshots.",
     gif: impExp,
