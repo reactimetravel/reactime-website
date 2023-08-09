@@ -37,7 +37,7 @@ export default function NavBar() {
                 <div className="ml-6 flex-shrink-0">
                   <img
                     className="block h-9 w-auto lg:hidden"
-                    src="siteLogo.png"
+                    src="blackWhiteSquareIcon.png" 
                     alt="Logo"
                   />
                   <img
