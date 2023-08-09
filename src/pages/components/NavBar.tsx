@@ -43,7 +43,7 @@ export default function NavBar() {
                   <img
                     className="hidden h-9 w-auto lg:block"
                     // src="https://i.imgur.com/ELBAyVb.png"
-                    src="siteLogo.png"
+                    src="blackWhiteSquareIcon.png"
                     alt="Logo"
                   />
                 </div>
