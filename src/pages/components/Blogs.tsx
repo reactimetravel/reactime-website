@@ -1,5 +1,4 @@
 import React from "react";
-import seanPhoto from "../../../public/v21/sean-PhotoRoom.png"
 
 const posts = [
   {
@@ -19,7 +18,7 @@ const posts = [
     author: {
       name: "Sean Kelly",
       href: "https://medium.com/@brok3turtl3",
-      imageUrl: seanPhoto,
+      imageUrl: "https://i.imgur.com/68CnpzY.jpg",
     },
   },
   {
