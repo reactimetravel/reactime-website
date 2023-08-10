@@ -103,7 +103,7 @@ export default function Blogs() {
             <div
               key={post.title}
               data-testid="blog"
-              className="flex flex-col overflow-hidden rounded-lg shadow-lg"
+              className="flex flex-col overflow-x-auto rounded-lg shadow-lg"
             >
               <div className="flex-shrink-0">
                 <img
