@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactimeOverview from "../../../public/v21/OverviewV21.gif";
 import SnapshotTimeTravel from "../../../public/v21/timeTravelHistory_v21.gif";
-// import HistoryTab from "../../../public/v20/history-tab.gif";
 import impExp from "../../../public/v21/importExport_v21.gif";
 
 import { motion } from "framer-motion";
