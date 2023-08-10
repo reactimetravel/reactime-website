@@ -98,7 +98,7 @@ export default function Blogs() {
             Read articles from previous releases!
           </p>
         </div>
-        <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3 overflow-x-scroll">
+        <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3 overflow">
           {posts.map((post) => (
             <div
               key={post.title}
