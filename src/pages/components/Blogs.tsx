@@ -98,12 +98,12 @@ export default function Blogs() {
             Read articles from previous releases!
           </p>
         </div>
-        <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3 overflow-x-scroll">
           {posts.map((post) => (
             <div
               key={post.title}
               data-testid="blog"
-              className="flex flex-col overflow-x-auto rounded-lg shadow-lg"
+              className="flex flex-col overflow-hidden rounded-lg shadow-lg"
             >
               <div className="flex-shrink-0">
                 <img
