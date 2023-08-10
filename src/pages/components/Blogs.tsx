@@ -1,6 +1,27 @@
 import React from "react";
+import seanPhoto from "../../../public/v21/sean-PhotoRoom.png"
 
 const posts = [
+  {
+    title: "Cheers to Reactime, Version 21!",
+    href: "https://medium.com/@brok3turtl3/cheers-to-reactime-version-21-fa4dafa4bc74",
+    category: {
+      name: "React, Open Source, Developer Tools",
+      href: "https://medium.com/tag/react",
+    },
+    description:
+      "Reactime offers a range of features to make debugging React applications less complicated and more intuitive. This tool is a time-traveling debugger that gives developers the unique ability to take snapshots...",
+    date: "August 09, 2023",
+    datetime: "2023-08-09",
+    imageUrl:
+      "https://unsplash.com/photos/UmaojK7erQo",
+    readingTime: "4 min",
+    author: {
+      name: "Sean Kelly",
+      href: "https://medium.com/@brok3turtl3",
+      imageUrl: seanPhoto,
+    },
+  },
   {
     title: "Reactime just keeps getting better",
     href: "https://medium.com/@njhuemmer/reactime-just-keeps-getting-better-b37659ff8b71",
