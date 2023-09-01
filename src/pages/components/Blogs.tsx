@@ -61,26 +61,26 @@ const posts = [
       imageUrl: "https://i.imgur.com/57j4S1x.png",
     },
   },
-  {
-    title: "Reactime 18.0 - Better Than Ever",
-    href: "https://medium.com/@zdf2424/reactime-18-0-better-than-ever-148b81606257",
-    category: {
-      name: "React, Remix, Next.js",
-      href: "https://medium.com/tag/react",
-    },
-    description:
-      "Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track, and visualize state changes. Reactime leverages React’s core reconciliation algorithm... ",
-    date: "Mar 28, 2023",
-    datetime: "2023-3-28",
-    imageUrl:
-      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "4 min",
-    author: {
-      name: "Zachary Freeman",
-      href: "https://medium.com/@zdf2424",
-      imageUrl: "https://avatars.githubusercontent.com/u/61289768?v=4",
-    },
-  },
+  // {
+  //   title: "Reactime 18.0 - Better Than Ever",
+  //   href: "https://medium.com/@zdf2424/reactime-18-0-better-than-ever-148b81606257",
+  //   category: {
+  //     name: "React, Remix, Next.js",
+  //     href: "https://medium.com/tag/react",
+  //   },
+  //   description:
+  //     "Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track, and visualize state changes. Reactime leverages React’s core reconciliation algorithm... ",
+  //   date: "Mar 28, 2023",
+  //   datetime: "2023-3-28",
+  //   imageUrl:
+  //     "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+  //   readingTime: "4 min",
+  //   author: {
+  //     name: "Zachary Freeman",
+  //     href: "https://medium.com/@zdf2424",
+  //     imageUrl: "https://avatars.githubusercontent.com/u/61289768?v=4",
+  //   },
+  // },
 ];
 
 export default function Blogs() {
@@ -98,7 +98,7 @@ export default function Blogs() {
             Read articles from previous releases!
           </p>
         </div>
-        <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3 overflow">
+        <div className="overflow mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
             <div
               key={post.title}
