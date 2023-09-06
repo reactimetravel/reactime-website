@@ -109,7 +109,7 @@ export default function People(): JSX.Element {
               Our Contributors
             </h2>
             <p className="text-xl text-gray-500">
-              All of the people who make Reactime awesome!
+              The awesome team behind Reactime!
             </p>
           </div>
           <ul
