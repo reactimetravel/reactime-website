@@ -60,8 +60,8 @@ export default function LandingPage() {
                         applications
                       </h1>
                       <p className="mt-6 text-xl text-gray-500">
-                        A Chrome Extension that lets you rewind time and replay
-                        previous versions of your stateful React components.
+                        A Chrome Extension that rewinds time and replays
+                        previous versions of stateful React components.
                       </p>
                       {/* This code is for the newsletter */}
                       {/* <p className="className=mt-6 mt-10 text-xl text-gray-500">
