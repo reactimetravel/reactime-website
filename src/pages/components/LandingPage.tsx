@@ -54,11 +54,13 @@ export default function LandingPage() {
                         </span>
                       </a>
                     </div>
-                    <div className="mt-6 flex items-center justify-center sm:max-w-xl">
-                      <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        Reactime <br /> a time travel debugger for modern React
-                        applications
-                      </h1>
+                    <div className="mt-6 flex sm:max-w-xl">
+                      <div className="items-center justify-center">
+                        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                          Reactime <br /> a time travel debugger for modern
+                          React applications
+                        </h1>
+                      </div>
                       <p className="mt-6 text-xl text-gray-500">
                         Use the Chrome Extension that rewinds time and replays
                         previous versions of stateful React components.
