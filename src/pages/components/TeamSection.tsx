@@ -7,7 +7,7 @@ const people: string[][] = [
   ["Alexander Landeros", "AlexanderLanderos"],
   ["Ali Rahman", "CourageWolf"],
   ["Andy Tsou", "andytsou19"],
-  ["Andy Wong", "andywongdev"],
+  ["Andy Wong", "andynullwong"],
   ["Becca Viner", "rtviner"],
   ["Ben Margolius", "benmarg"],
   ["Ben Michareune", "bmichare"],
