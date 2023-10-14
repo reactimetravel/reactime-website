@@ -60,9 +60,9 @@ export default function LandingPage() {
                         React-based applications
                       </h1>
                       <p className="mt-6 text-xl text-gray-500">
-                        Download the Chrome Extension that rewinds time and
-                        replays previous versions of stateful React components.
-                        Now compatible with Next.js and Remix.
+                        Download the Google Chrome Extension that rewinds time
+                        and replays previous versions of stateful React
+                        components. Now compatible with Next.js and Remix.
                       </p>
                       {/* This code is for the newsletter */}
                       {/* <p className="className=mt-6 mt-10 text-xl text-gray-500">
