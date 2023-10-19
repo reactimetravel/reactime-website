@@ -46,7 +46,7 @@ export default function LandingPage() {
                           What's new
                         </span> */}
                         <span className="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
-                          <span>Click to see what's new in Reactime 21.0!</span>
+                          <span>Updates to Reactime 21.0</span>
                           <ChevronRightIcon
                             className="h-5 w-5"
                             aria-hidden="true"
