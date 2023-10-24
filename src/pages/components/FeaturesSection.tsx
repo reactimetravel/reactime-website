@@ -56,7 +56,7 @@ export default function FeaturesSection() {
       <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
         <h2 className="text-lg font-semibold text-rose-500">Core Features</h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          What makes Reactime great?
+          What does Reactime do?
         </p>
         <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
           Reactime is full of features that will make life easier as a
