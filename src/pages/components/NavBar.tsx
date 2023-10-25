@@ -37,20 +37,21 @@ export default function NavBar() {
                 <div className="ml-6 flex-shrink-0">
                   <img
                     className="block h-9 w-auto lg:hidden"
-                    src="siteLogo.png"
+                    src="https://i.imgur.com/ELBAyVb.png"
+                    //src="blackWhiteSquareIcon.png"
                     alt="Logo"
                   />
                   <img
                     className="hidden h-9 w-auto lg:block"
-                    // src="https://i.imgur.com/ELBAyVb.png"
-                    src="siteLogo.png"
+                    src="https://i.imgur.com/ELBAyVb.png"
+                    // src="blackWhiteSquareIcon.png"
                     alt="Logo"
                   />
                 </div>
                 <h2 className="mt-2 pl-1 text-2xl font-bold">Reactime</h2>
                 {/* {'className="mx-4 mt-2 inline-flex items-center rounded-full bg-red-200 px-2.5 py-0.5 text-xs font-medium text-red-800'} */}
                 <span className="text-gren-800 mx-4 mt-2 inline-flex items-center rounded-full bg-green-200 px-2.5 py-0.5 text-xs font-medium">
-                  v20.0.0
+                  v22.0.0
                 </span>
               </div>
 
@@ -66,7 +67,8 @@ export default function NavBar() {
                   <a
                     href="https://chrome.google.com/webstore/detail/reactime/cgibknllccemdnfhfpmjhffpjfeidjga?hl=en-US"
                     target="_blank"
-                    className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white hover:bg-gray-700 hover:text-white"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:bg-gray-700 hover:text-white"
+                    //className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white hover:bg-gray-700 hover:text-white"
                   >
                     Download
                   </a>

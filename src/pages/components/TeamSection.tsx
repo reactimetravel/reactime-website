@@ -7,8 +7,9 @@ const people: string[][] = [
   ["Andrew Byun", "AndrewByun"],
   ["Alexander Landeros", "AlexanderLanderos"],
   ["Ali Rahman", "CourageWolf"],
+  ["Andrew Byun", "AndrewByun"],
   ["Andy Tsou", "andytsou19"],
-  ["Andy Wong", "andywongdev"],
+  ["Andy Wong", "andynullwong"],
   ["Becca Viner", "rtviner"],
   ["Ben Margolius", "benmarg"],
   ["Ben Michareune", "bmichare"],
@@ -20,6 +21,7 @@ const people: string[][] = [
   ["Chris Flannery", "chriswillsflannery"],
   ["Chris Guizzetti", "guizzettic"],
   ["Chris LeBrett", "fscgolden"],
+  ["Chris Stamper", "ctstamper"],
   ["Christina Or", "christinaor"],
   ["Christopher Stamper", "ctstamper"],
   ["Cole Styr", "c-styr"],
@@ -31,6 +33,7 @@ const people: string[][] = [
   ["Dennis Lopez", "DennisLpz"],
   ["Edar Liu", "liuedar"],
   ["Edwin Menendez", "edwinjmenendez"],
+  ["Eivind Del Fierro", "EivindDelFierro"],
   ["Emin Tahirov", "eminthrv"],
   ["Ergi Shehu", "Ergi516"],
   ["Eric Yun", "ericsngyun"],
@@ -59,12 +62,14 @@ const people: string[][] = [
   ["Kim Mai Nguyen", "Nkmai"],
   ["Kris Sorensen", "kris-sorensen"],
   ["Kristina Wallen", "kristinawallen"],
+  ["Kyle Bell", "KyEBell"],
   ["Lance Ziegler", "lanceziegler"],
   ["Lina Shin", "rxlina"],
   ["Louis Lam", "llam722"],
   ["Mark Teets", "markteets"],
   ["Mike Bednarz", "mikebednarz"],
   ["Minzo Kim", "minzo-kim"],
+  ["Morah Geist", "morahgeist"],
   ["Nate Wa Mwenze", "nmwenz90"],
   ["Nathan Richardson", "BagelEnthusiast"],
   ["Ngoc Zwolinski", "ngoczwolinski"],
@@ -83,12 +88,14 @@ const people: string[][] = [
   ["Ryan Dang", "rydang"],
   ["Samuel Tran", "LeumasTr"],
   ["Sanjay Lavingia", "sanjaylavingia"],
+  ["Sean Kelly", "Brok3Turtl3"],
   ["Sergei Liubchenko", "sergeylvq"],
   ["Sierra Swaby", "starkspark"],
   ["Tania Lind", "lind-tania"],
   ["Viet Nguyen", "vnguyen95"],
   ["Vincent Nguyen", "VNguyenCode"],
   ["Wilton Lee", "wiltonlee948"],
+  ["Yididia Ketema", "yididiaketema"],
   ["Yujin Kang", " yujinkay"],
   ["Zachary Freeman", "zacharydfreeman"],
 ];
@@ -108,7 +115,7 @@ export default function People(): JSX.Element {
               Our Contributors
             </h2>
             <p className="text-xl text-gray-500">
-              All of the people who make Reactime awesome!
+              The awesome team behind Reactime!
             </p>
           </div>
           <ul

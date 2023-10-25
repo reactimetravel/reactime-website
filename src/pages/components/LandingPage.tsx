@@ -39,14 +39,14 @@ export default function LandingPage() {
                     <div>
                       <a
                         target="_blank"
-                        href="https://medium.com/@njhuemmer/reactime-just-keeps-getting-better-b37659ff8b71"
+                        href="https://medium.com/@kelvinmirhan/reactime-real-time-debugging-timeless-results-3f163b721d01"
                         className="inline-flex space-x-4"
                       >
                         {/* <span className="rounded px-2.5 py-1 text-sm font-semibold text-rose-500">
                           What's new
                         </span> */}
                         <span className="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
-                          <span>What's new in Reactime 20.0!</span>
+                          <span>Updates to Reactime 22.0</span>
                           <ChevronRightIcon
                             className="h-5 w-5"
                             aria-hidden="true"
@@ -56,12 +56,14 @@ export default function LandingPage() {
                     </div>
                     <div className="mt-6 sm:max-w-xl">
                       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        Reactime: a time travel debugger for modern React
-                        applications
+                        Reactime <br /> a time travel debugger for modern
+                        React-based applications
                       </h1>
                       <p className="mt-6 text-xl text-gray-500">
-                        A Chrome Extension that lets you rewind time and replay
-                        previous versions of your stateful React components.
+                        Download the Google Chrome Extension that rewinds time
+                        and replays previous versions of stateful React
+                        components. Now compatible with Next.js and Remix
+                        applications.
                       </p>
                       {/* This code is for the newsletter */}
                       {/* <p className="className=mt-6 mt-10 text-xl text-gray-500">
@@ -128,7 +130,7 @@ export default function LandingPage() {
                           </span>{" "}
                           by over{" "}
                           <span className="font-medium text-rose-500">
-                            1,900 users
+                            2,000 users
                           </span>
                         </div>
                       </div>
@@ -179,7 +181,7 @@ export default function LandingPage() {
                     <img
                       //* lg:h-full w-full
                       className="rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
-                      src="/v20/website-top-pic.png"
+                      src="/v21/app_main_v22.png" 
                       alt=""
                     />
                   </div>

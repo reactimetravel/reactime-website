@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import ReactimeOverview from "../../../public/v20/reactime-overview.gif";
-import SnapshotTimeTravel from "../../../public/v20/snapshot-time-travel.gif";
-import HistoryTab from "../../../public/v20/history-tab.gif";
-
+import ReactimeOverview from "../../../public/v21/GeneralDemoGif_1.gif";
+import SnapshotTimeTravel from "../../../public/v21/TimeTravelGif_2_2.gif";
+import impExp from "../../../public/v21/ImportExportGif_1_2.gif";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -47,7 +46,7 @@ const GifFeatures = () => {
   return (
     <div>
       <h2 className="pt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        Check out some of our features!
+        Click to see a quick demo!
       </h2>
       <div className="xs:flex-col container mx-auto flex-col font-bold sm:flex-col md:flex-col lg:flex-row">
         <div className="m-auto pb-3">{imageComponents}</div>
@@ -73,10 +72,10 @@ const sections = [
     gif: SnapshotTimeTravel,
   },
   {
-    title: "History Tab",
+    title: "Import & Export",
     // description:
     //   "Save a series of state snapshots and use it to analyze changes in component render performance between current and previous series of snapshots.",
-    gif: HistoryTab,
+    gif: impExp,
   },
 ];
 
