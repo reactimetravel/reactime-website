@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import ReactimeOverview from "../../../public/v21/OverviewV21.gif";
-import SnapshotTimeTravel from "../../../public/v21/timeTravelHistory_v21.gif";
-import impExp from "../../../public/v21/importExport_v21.gif";
+import ReactimeOverview from "../../../public/v21/GeneralDemoGif_1.gif";
+import SnapshotTimeTravel from "../../../public/v21/TimeTravelGif_1.gif";
+import impExp from "../../../public/v21/ImportExportGif_1.gif";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
