@@ -39,7 +39,7 @@ export default function LandingPage() {
                     <div>
                       <a
                         target="_blank"
-                        href="https://medium.com/@brok3turtl3/cheers-to-reactime-version-21-fa4dafa4bc74"
+                        href="https://medium.com/@kelvinmirhan/reactime-real-time-debugging-timeless-results-3f163b721d01"
                         className="inline-flex space-x-4"
                       >
                         {/* <span className="rounded px-2.5 py-1 text-sm font-semibold text-rose-500">
@@ -181,7 +181,7 @@ export default function LandingPage() {
                     <img
                       //* lg:h-full w-full
                       className="rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
-                      src="/v21/app_main_v21.png"
+                      src="/v21/app_main_v22.png" 
                       alt=""
                     />
                   </div>
