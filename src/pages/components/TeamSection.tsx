@@ -4,7 +4,6 @@ import React from "react";
 
 const people: string[][] = [
   ["Alex Gomez", "alexgomez9"],
-  ["Andrew Byun", "AndrewByun"],
   ["Alexander Landeros", "AlexanderLanderos"],
   ["Ali Rahman", "CourageWolf"],
   ["Andrew Byun", "AndrewByun"],
@@ -21,7 +20,6 @@ const people: string[][] = [
   ["Chris Flannery", "chriswillsflannery"],
   ["Chris Guizzetti", "guizzettic"],
   ["Chris LeBrett", "fscgolden"],
-  ["Chris Stamper", "ctstamper"],
   ["Christina Or", "christinaor"],
   ["Christopher Stamper", "ctstamper"],
   ["Cole Styr", "c-styr"],
