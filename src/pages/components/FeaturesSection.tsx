@@ -39,7 +39,7 @@ const features = [
   {
     name: "Download State History",
     description:
-      "Easily save your state history as a JSON source file for future reference",
+      "Save your state history as a JSON source file for future reference",
     icon: ArrowDownTrayIcon,
   },
   {
