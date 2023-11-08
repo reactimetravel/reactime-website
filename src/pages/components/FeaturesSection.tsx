@@ -15,7 +15,7 @@ const features = [
   {
     name: "State SnapShot Display",
     description:
-      "See your application state in a stylized and interactive format for clear and concise state management",
+      "See your application state in an interactive format for clear and concise state management",
     icon: CameraIcon,
   },
   {
