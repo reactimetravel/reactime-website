@@ -130,7 +130,7 @@ export default function LandingPage() {
                           </span>{" "}
                           by over{" "}
                           <span className="font-medium text-rose-500">
-                            2,000 users
+                            2,100 users
                           </span>
                         </div>
                       </div>
