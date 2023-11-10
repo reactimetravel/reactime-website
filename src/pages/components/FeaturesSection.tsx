@@ -27,7 +27,7 @@ const features = [
   {
     name: "Action Comparison & Snapshot Series",
     description:
-      "Save a series of state snapshots and use it to analyze changes in component render performance between current and previous series of snapshots",
+      "Save a series of state snapshots and use it to analyze changes in component render performance",
     icon: ArrowPathIcon,
   },
   {
