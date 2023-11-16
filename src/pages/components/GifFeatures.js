@@ -46,7 +46,7 @@ const GifFeatures = () => {
   return (
     <div>
       <h2 className="pt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        Click to see a quick demo!
+        Click to see a demo!
       </h2>
       <div className="xs:flex-col container mx-auto flex-col font-bold sm:flex-col md:flex-col lg:flex-row">
         <div className="m-auto pb-3">{imageComponents}</div>
