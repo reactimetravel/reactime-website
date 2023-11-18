@@ -56,12 +56,14 @@ export default function FeaturesSection() {
       <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
         <h2 className="text-lg font-semibold text-rose-500">Core Features</h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          What does Reactime do?
+          What is Reactime?
         </p>
         <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-          Reactime is full of features that will make life easier as a
-          developer. From time-travel debugging to state snapshot display, check
-          out how using Reactime will improve the developer experience.
+          Reactime is a developer tool that is compatible with react-based
+          framework applications(React, Recoil, Next.js, Remix). It is a full of
+          features that will make life easier as a developer. From time-travel
+          debugging to state snapshot display, check out how using Reactime will
+          improve the developer experience.
         </p>
         <div className="mt-20">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
