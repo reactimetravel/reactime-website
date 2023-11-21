@@ -60,10 +60,10 @@ export default function FeaturesSection() {
         </p>
         <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
           Reactime is a developer tool that is compatible with react-based
-          framework applications(React, Recoil, Next.js, Remix). It is a full of
-          features that will make life easier as a developer. From time-travel
-          debugging to state snapshot display, check out how using Reactime will
-          improve the developer experience.
+          framework applications. It is a full of features that will make life
+          easier as a developer. From time-travel debugging to state snapshot
+          display, check out how using Reactime will improve the developer
+          experience.
         </p>
         <div className="mt-20">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
