@@ -33,7 +33,7 @@ const features = [
   {
     name: "Components Performance Display",
     description:
-      "Visualize the relative latency trends introduced by re-rendering each component on state change",
+      "Visualize the latency trends for component render times on each state change",
     icon: PresentationChartLineIcon,
   },
   {
