@@ -69,6 +69,9 @@ export default function LandingPage() {
                       {/* <p className="className=mt-6 mt-10 text-xl text-gray-500">
                         Sign up for our newsletter!
                       </p> */}
+                      <p className="mt-6 text-sm text-gray-500">
+                        Beta support for Remix applications*
+                      </p>
                     </div>
                     {/* <form
                       action="#"
