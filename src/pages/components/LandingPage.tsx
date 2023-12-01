@@ -70,7 +70,7 @@ export default function LandingPage() {
                         Sign up for our newsletter!
                       </p> */}
                       <p className="mt-6 text-sm text-gray-500">
-                        Beta support for Remix applications*
+                        Support for Remix applications is still in beta*
                       </p>
                     </div>
                     {/* <form
