@@ -51,7 +51,7 @@ export default function NavBar() {
                 <h2 className="mt-2 pl-1 text-2xl font-bold">Reactime</h2>
                 {/* {'className="mx-4 mt-2 inline-flex items-center rounded-full bg-red-200 px-2.5 py-0.5 text-xs font-medium text-red-800'} */}
                 <span className="text-gren-800 mx-4 mt-2 inline-flex items-center rounded-full bg-green-200 px-2.5 py-0.5 text-xs font-medium">
-                  v22.0.0
+                  v23.0.0
                 </span>
               </div>
 

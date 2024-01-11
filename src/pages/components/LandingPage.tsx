@@ -46,7 +46,7 @@ export default function LandingPage() {
                           What's new
                         </span> */}
                         <span className="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
-                          <span>What's new for Reactime 22.0?</span>
+                          <span>What's new for Reactime 23.0?</span>
                           <ChevronRightIcon
                             className="h-5 w-5"
                             aria-hidden="true"
@@ -184,7 +184,7 @@ export default function LandingPage() {
                     <img
                       //* lg:h-full w-full
                       className="rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
-                      src="/v21/app_main_v22.png"
+                      src="/v23/app_main_v23.png"
                       alt=""
                     />
                   </div>
@@ -204,7 +204,7 @@ export default function LandingPage() {
         <footer className="gray-900 mt-8 bg-[#333333] sm:mt-8">
           <div className="mx-auto max-w-md overflow-hidden py-3 px-4 pb-10 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
             <p className="mt-8 text-center text-base text-gray-400">
-              &copy; 2023 Reactime, All rights reserved.
+              &copy; 2024 Reactime, All rights reserved.
             </p>
           </div>
         </footer>
