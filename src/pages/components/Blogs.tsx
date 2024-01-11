@@ -2,6 +2,26 @@ import React from "react";
 
 const posts = [
   {
+    title: "Reactime Renovation: Updates Coming in Version 23.0!",
+    href: "https://medium.com/@liam.donaher/reactime-renovation-updates-coming-in-version-23-0-37b2ef2a2771",
+    category: {
+      name: "React, Open Source, Debugging, Optimization",
+      href: "https://medium.com/tag/react",
+    },
+    description:
+      "Reactime is a lightweight chrome extension that sheds light on users’ React applications. With features that include a node diagram of React components, render-time analytics, state snapshots and time travel debugging...",
+    date: "January 11, 2024",
+    datetime: "2024-01-11",
+    imageUrl:
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyNDYxNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+    readingTime: "4 min",
+    author: {
+      name: "Liam Donaher",
+      href: "https://medium.com/@liam.donaher",
+      imageUrl: "https://avatars.githubusercontent.com/u/147748756?v=4",
+    },
+  },
+  {
     title: "Reactime: Real-time Debugging, Timeless Results",
     href: "https://medium.com/@kelvinmirhan/reactime-real-time-debugging-timeless-results-3f163b721d01",
     category: {
@@ -41,26 +61,26 @@ const posts = [
       imageUrl: "https://i.imgur.com/68CnpzY.jpg",
     },
   },
-  {
-    title: "Reactime just keeps getting better",
-    href: "https://medium.com/@njhuemmer/reactime-just-keeps-getting-better-b37659ff8b71",
-    category: {
-      name: "React, Debugging, Open Source",
-      href: "https://medium.com/tag/react",
-    },
-    description:
-      "Reactime is an open-source tool for debugging and time travel in React applications while in development. It is a Chrome Extension that allows developers to monitor, record, and conceptualize chan...",
-    date: "June 21, 2023",
-    datetime: "2023-06-21",
-    imageUrl:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyNDYxNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
-    readingTime: "4 min",
-    author: {
-      name: "Nick Huemmer",
-      href: "https://medium.com/@njhuemmer",
-      imageUrl: "https://i.imgur.com/6bJiyk9.png",
-    },
-  },
+  // {
+  //   title: "Reactime just keeps getting better",
+  //   href: "https://medium.com/@njhuemmer/reactime-just-keeps-getting-better-b37659ff8b71",
+  //   category: {
+  //     name: "React, Debugging, Open Source",
+  //     href: "https://medium.com/tag/react",
+  //   },
+  //   description:
+  //     "Reactime is an open-source tool for debugging and time travel in React applications while in development. It is a Chrome Extension that allows developers to monitor, record, and conceptualize chan...",
+  //   date: "June 21, 2023",
+  //   datetime: "2023-06-21",
+  //   imageUrl:
+  //     "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyNDYxNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+  //   readingTime: "4 min",
+  //   author: {
+  //     name: "Nick Huemmer",
+  //     href: "https://medium.com/@njhuemmer",
+  //     imageUrl: "https://i.imgur.com/6bJiyk9.png",
+  //   },
+  // },
   // {
   //   title: "What time is it? It's still Reactime!",
   //   href: "https://medium.com/@minzo.kim/what-time-is-it-its-still-reactime-d496adfa908c",
