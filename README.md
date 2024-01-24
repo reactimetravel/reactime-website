@@ -17,7 +17,7 @@ Settings > Collaborators > Add People
 
 # Instructions for namecheap.com (reacti.me) domain
 
-Note: domain purchased for 1 year, expires Mar 15, 2024
+Note: domain purchased for 1 year, expires Mar 15, 2025
 
 1. To manage, go to namecheap.com > account > dashboard
 2. 'Recently active' > reacti.me > manage
