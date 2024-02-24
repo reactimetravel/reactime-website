@@ -8,10 +8,17 @@ import {
   CameraIcon,
   PresentationChartLineIcon,
   MapIcon,
+  EyeIcon
 } from "@heroicons/react/24/outline";
 import React from "react";
 
 const features = [
+  {
+    name: "Accessibility Debugging",
+    description:
+      "Check how a screen reader reads your application per state change",
+    icon: EyeIcon
+  },
   {
     name: "State SnapShot Display",
     description:

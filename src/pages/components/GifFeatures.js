@@ -19,26 +19,29 @@ const GifFeatures = () => {
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
     >
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 className="text-lg">{title}</h3>
     </motion.div>
   ));
 
-  const imageComponents = sections.map(({ gif }, i) => (
+  const imageComponents = sections.map(({ gif, description }, i) => (
     <motion.div
       key={i}
-      initial={{ opacity: 0, x: 30 }}
-      animate={{ opacity: section === i ? 1 : 0, x: section === i ? 0 : 30 }}
+      initial={{ opacity: 0, y: -30 }}
+      animate={{ opacity: section === i ? 1 : 0, y: section === i ? 0 : -30 }}
       transition={{ type: "spring", bounce: 0.25, duration: 2 }}
+      // className="inline-flex gap-x-9"
     >
       {section === i && (
-        <Image
-          className="image"
-          src={gif}
-          style={{}}
-          // layout="intrinsic"
-          alt=""
-        />
+        <div className="inline-flex gap-x-14 justify-center items-center">
+          <Image
+            className="image"
+            src={gif}
+            style={{}}
+            // layout="intrinsic"
+            alt=""
+          />
+          <h1 className="text-3xl w-80 font-normal">{description}</h1>
+        </div>
       )}
     </motion.div>
   ));
@@ -46,13 +49,13 @@ const GifFeatures = () => {
   return (
     <div>
       <h2 className="pt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        Click to demo!
+        Reactime Demo!
       </h2>
+      <div className="mt-10 xs:pt-20 mx-8 flex flex-row items-center justify-center gap-8">
+        {sectionComponents}
+      </div>
       <div className="xs:flex-col container mx-auto flex-col font-bold sm:flex-col md:flex-col lg:flex-row">
         <div className="m-auto pb-3">{imageComponents}</div>
-        <div className="xs:pt-20 mx-8 flex flex-col items-center justify-center gap-8">
-          {sectionComponents}
-        </div>
       </div>
     </div>
   );
@@ -61,20 +64,20 @@ const GifFeatures = () => {
 const sections = [
   {
     title: "Reactime Overview",
-    // description:
-    //   "See your application state in a stylized and intereactive format, for clear concise state management.",
+    description:
+      "See your application state in a stylized and interactive format, for clear concise state management",
     gif: ReactimeOverview,
   },
   {
     title: "Snapshot Time Travel",
-    // description:
-    //   "Simulate any state change from your DOM history, with a simple click of a button.",
+    description:
+      "Simulate any state change from your DOM history, with a simple click of a button",
     gif: SnapshotTimeTravel,
   },
   {
     title: "Import & Export",
-    // description:
-    //   "Save a series of state snapshots and use it to analyze changes in component render performance between current and previous series of snapshots.",
+    description:
+      "Save a series of state snapshots and use it to analyze changes in component render performance between current and previous series of snapshots",
     gif: impExp,
   },
 ];

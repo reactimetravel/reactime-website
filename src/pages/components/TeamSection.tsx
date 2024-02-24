@@ -2,6 +2,14 @@ import Image from "next/image";
 import { useState } from "react";
 import React from "react";
 
+// use this variable to display the most recent iteration team for Reactime
+const team24: string[][] = [
+  ["Amy Yang", "ay7991"],
+  ["Eva Ury", "evaSUry"],
+  ["Jesse Guerrero", "jguerrero35"],
+  ["Oliver Cho", "Oliver-Cho"]
+];
+
 const people: string[][] = [
   ["Alex Gomez", "alexgomez9"],
   ["Alexander Landeros", "AlexanderLanderos"],
@@ -114,7 +122,22 @@ export default function People(): JSX.Element {
         <div className="space-y-8 sm:space-y-12">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Our Contributors
+              Version 24.0 Team
+            </h2>
+          </div>
+          <ul
+            role="list"
+            className="mx-auto grid grid-cols-3 gap-x-8 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-4"
+          >
+            <>
+              {team24.map((person) => (
+                <Profile key={person[1]} profile={person[1]} name={person[0]} />
+              ))}
+            </>
+          </ul>
+          <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              Our Past Contributors
             </h2>
             <p className="text-xl text-gray-500">
               The awesome team behind Reactime!
