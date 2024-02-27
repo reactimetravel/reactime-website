@@ -46,7 +46,7 @@ export default function LandingPage() {
                           What's new
                         </span> */}
                         <span className="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
-                          <span>What's new for Reactime 23.0?</span>
+                          <span>What's new for Reactime 24.0?</span>
                           <ChevronRightIcon
                             className="h-5 w-5"
                             aria-hidden="true"
@@ -184,7 +184,7 @@ export default function LandingPage() {
                     <img
                       //* lg:h-full w-full
                       className="rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
-                      src="/v23/app_main_v23.png"
+                      src="/v24/app_main_v24.png"
                       alt=""
                     />
                   </div>
