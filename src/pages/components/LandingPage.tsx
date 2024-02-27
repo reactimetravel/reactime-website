@@ -184,7 +184,7 @@ export default function LandingPage() {
                     <img
                       //* lg:h-full w-full
                       className="rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:w-auto"
-                      src="/v23/app_main_v23.png"
+                      src="/v24/app_main_v24.png"
                       alt=""
                     />
                   </div>

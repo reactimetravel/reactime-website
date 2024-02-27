@@ -2,6 +2,26 @@ import React from "react";
 
 const posts = [
   {
+    title: "Relaunching Reactime: updates and a new accessibility feature!",
+    href: "https://medium.com/@evaury/relaunching-reactime-updates-and-a-new-accessibility-feature-1f0fd3a5bd8c",
+    category: {
+      name: "React, Accessibility, Debugging",
+      href: "https://medium.com/tag/react",
+    },
+    description:
+      "Enter Reactime: an innovative, time travel debugging tool specifically designed for React applications. No longer will you have to try and imagine the relationship between your components or remember what your app...",
+    date: "February 27, 2024",
+    datetime: "2024-02-27",
+    imageUrl:
+      "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg",
+    readingTime: "6 min",
+    author: {
+      name: "Eva Ury",
+      href: "https://medium.com/@evaury",
+      imageUrl: "https://avatars.githubusercontent.com/u/147180726?v=4",
+    },
+  },
+  {
     title: "Reactime Renovation: Updates Coming in Version 23.0!",
     href: "https://medium.com/@liam.donaher/reactime-renovation-updates-coming-in-version-23-0-37b2ef2a2771",
     category: {
@@ -41,26 +61,26 @@ const posts = [
       imageUrl: "https://i.imgur.com/6PZx2g7.jpeg",
     },
   },
-  {
-    title: "Cheers to Reactime, Version 21!",
-    href: "https://medium.com/@brok3turtl3/cheers-to-reactime-version-21-fa4dafa4bc74",
-    category: {
-      name: "React, Open Source, Developer Tools",
-      href: "https://medium.com/tag/react",
-    },
-    description:
-      "Reactime offers a range of features to make debugging React applications less complicated and more intuitive. This tool is a time-traveling debugger that gives developers the unique ability to take snapshots...",
-    date: "August 09, 2023",
-    datetime: "2023-08-09",
-    imageUrl:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
-    readingTime: "4 min",
-    author: {
-      name: "Sean Kelly",
-      href: "https://medium.com/@brok3turtl3",
-      imageUrl: "https://i.imgur.com/68CnpzY.jpg",
-    },
-  },
+  // {
+  //   title: "Cheers to Reactime, Version 21!",
+  //   href: "https://medium.com/@brok3turtl3/cheers-to-reactime-version-21-fa4dafa4bc74",
+  //   category: {
+  //     name: "React, Open Source, Developer Tools",
+  //     href: "https://medium.com/tag/react",
+  //   },
+  //   description:
+  //     "Reactime offers a range of features to make debugging React applications less complicated and more intuitive. This tool is a time-traveling debugger that gives developers the unique ability to take snapshots...",
+  //   date: "August 09, 2023",
+  //   datetime: "2023-08-09",
+  //   imageUrl:
+  //     "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
+  //   readingTime: "4 min",
+  //   author: {
+  //     name: "Sean Kelly",
+  //     href: "https://medium.com/@brok3turtl3",
+  //     imageUrl: "https://i.imgur.com/68CnpzY.jpg",
+  //   },
+  // },
   // {
   //   title: "Reactime just keeps getting better",
   //   href: "https://medium.com/@njhuemmer/reactime-just-keeps-getting-better-b37659ff8b71",
