@@ -2,6 +2,26 @@ import React from "react";
 
 const posts = [
   {
+    title: "Here will be our stuff team 25!",
+    href: "https://medium.com/@evaury/relaunching-reactime-updates-and-a-new-accessibility-feature-1f0fd3a5bd8c",
+    category: {
+      name: "React, Accessibility, Debugging",
+      href: "https://medium.com/tag/react",
+    },
+    description:
+      "Enter Reactime: an innovative, time travel debugging tool specifically designed for React applications. No longer will you have to try and imagine the relationship between your components or remember what your app...",
+    date: "May 17, 2024",
+    datetime: "2024-05-17",
+    imageUrl:
+      "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg",
+    readingTime: "8 min",
+    author: {
+      name: "Jose",
+      href: "https://medium.com/@evaury",
+      imageUrl: "https://avatars.githubusercontent.com/u/147180726?v=4",
+    },
+  },
+  {
     title: "Relaunching Reactime: updates and a new accessibility feature!",
     href: "https://medium.com/@evaury/relaunching-reactime-updates-and-a-new-accessibility-feature-1f0fd3a5bd8c",
     category: {
@@ -41,26 +61,26 @@ const posts = [
       imageUrl: "https://avatars.githubusercontent.com/u/147748756?v=4",
     },
   },
-  {
-    title: "Reactime: Real-time Debugging, Timeless Results",
-    href: "https://medium.com/@kelvinmirhan/reactime-real-time-debugging-timeless-results-3f163b721d01",
-    category: {
-      name: "React, Open Source, Debugging",
-      href: "https://medium.com/tag/react",
-    },
-    description:
-      "In the evolving realm of web development, React has solidified its presence as a dominant force. But for developers dealing with React applications, debugging can often feel like a bit of a puzzle, especially...",
-    date: "October 24, 2023",
-    datetime: "2023-08-24",
-    imageUrl:
-      "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    readingTime: "5 min",
-    author: {
-      name: "Kelvin Mirhan",
-      href: "https://medium.com/@kelvinmirhan",
-      imageUrl: "https://i.imgur.com/6PZx2g7.jpeg",
-    },
-  },
+  // {
+  //   title: "Reactime: Real-time Debugging, Timeless Results",
+  //   href: "https://medium.com/@kelvinmirhan/reactime-real-time-debugging-timeless-results-3f163b721d01",
+  //   category: {
+  //     name: "React, Open Source, Debugging",
+  //     href: "https://medium.com/tag/react",
+  //   },
+  //   description:
+  //     "In the evolving realm of web development, React has solidified its presence as a dominant force. But for developers dealing with React applications, debugging can often feel like a bit of a puzzle, especially...",
+  //   date: "October 24, 2023",
+  //   datetime: "2023-08-24",
+  //   imageUrl:
+  //     "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  //   readingTime: "5 min",
+  //   author: {
+  //     name: "Kelvin Mirhan",
+  //     href: "https://medium.com/@kelvinmirhan",
+  //     imageUrl: "https://i.imgur.com/6PZx2g7.jpeg",
+  //   },
+  // },
   // {
   //   title: "Cheers to Reactime, Version 21!",
   //   href: "https://medium.com/@brok3turtl3/cheers-to-reactime-version-21-fa4dafa4bc74",
