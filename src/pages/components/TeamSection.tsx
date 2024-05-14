@@ -9,12 +9,6 @@ const team25: string[][] = [
   ["Logan Nelson", "ljn16"],
   ["Mel Koppens", "MelKoppens"]
 ];
-// const team24: string[][] = [
-//   ["Amy Yang", "ay7991"],
-//   ["Eva Ury", "evaSUry"],
-//   ["Jesse Guerrero", "jguerrero35"],
-//   ["Oliver Cho", "Oliver-Cho"]
-// ];
 
 const people: string[][] = [
   ["Alex Gomez", "alexgomez9"],
