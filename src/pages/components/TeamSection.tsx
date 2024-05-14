@@ -2,19 +2,13 @@ import Image from "next/image";
 import { useState } from "react";
 import React from "react";
 
-// use this variable to display the most recent iteration team for Reactime
-const team25: string[][] = [
-  ["Haider Ali", "hali03"],
-  ["Jose Luis Sanchez", "JoseSanchez1996"],
-  ["Logan Nelson", "ljn16"],
-  ["Mel Koppens", "MelKoppens"]
+// use this variable to display the most recent iteration team for Reactime.
+const team24: string[][] = [
+  ["Amy Yang", "ay7991"],
+  ["Eva Ury", "evaSUry"],
+  ["Jesse Guerrero", "jguerrero35"],
+  ["Oliver Cho", "Oliver-Cho"]
 ];
-// const team24: string[][] = [
-//   ["Amy Yang", "ay7991"],
-//   ["Eva Ury", "evaSUry"],
-//   ["Jesse Guerrero", "jguerrero35"],
-//   ["Oliver Cho", "Oliver-Cho"]
-// ];
 
 const people: string[][] = [
   ["Alex Gomez", "alexgomez9"],
