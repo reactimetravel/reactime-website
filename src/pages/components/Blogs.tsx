@@ -2,23 +2,23 @@ import React from "react";
 
 const posts = [
   {
-    title: "Here will be our stuff team 25!",
+    title: "ReacTime upgrade, it is here!",
     href: "https://medium.com/@evaury/relaunching-reactime-updates-and-a-new-accessibility-feature-1f0fd3a5bd8c",
     category: {
-      name: "React, Accessibility, Debugging",
+      name: "React, Props, Visualization",
       href: "https://medium.com/tag/react",
     },
     description:
-      "Enter Reactime: an innovative, time travel debugging tool specifically designed for React applications. No longer will you have to try and imagine the relationship between your components or remember what your app...",
+      "React is back: Enjoy your props being passed down the components and made visible in an easy to see fashion both ...",
     date: "May 17, 2024",
     datetime: "2024-05-17",
     imageUrl:
-      "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg",
-    readingTime: "8 min",
+      "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    readingTime: "5 min",
     author: {
-      name: "Jose",
+      name: "Jose Luis Sanchez",
       href: "https://medium.com/@evaury",
-      imageUrl: "https://avatars.githubusercontent.com/u/147180726?v=4",
+      imageUrl: "https://avatars.githubusercontent.com/u/161394532?v=4",
     },
   },
   {
