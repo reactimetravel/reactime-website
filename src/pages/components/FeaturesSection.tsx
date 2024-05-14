@@ -1,18 +1,25 @@
 import {
   ArrowPathIcon,
   //CloudArrowUpIcon,
-  //CogIcon,
+  CogIcon,
   ArrowDownTrayIcon,
   //ServerIcon,
   ClockIcon,
   CameraIcon,
   PresentationChartLineIcon,
   MapIcon,
-  EyeIcon
+  EyeIcon,
+
 } from "@heroicons/react/24/outline";
 import React from "react";
 
 const features = [
+  {
+    name: "Prop visualization",
+    description:
+      "See how the props flow down the component diagram",
+    icon: CogIcon
+  },
   {
     name: "Accessibility Debugging",
     description:
