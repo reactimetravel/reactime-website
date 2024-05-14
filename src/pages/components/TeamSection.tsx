@@ -14,6 +14,7 @@ const people: string[][] = [
   ["Alex Gomez", "alexgomez9"],
   ["Alexander Landeros", "AlexanderLanderos"],
   ["Ali Rahman", "CourageWolf"],
+  ["Amy Yang", "ay7991"],
   ["Andrew Byun", "AndrewByun"],
   ["Andy Tsou", "andytsou19"],
   ["Andy Wong", "andynullwong"],
@@ -44,6 +45,7 @@ const people: string[][] = [
   ["Emin Tahirov", "eminthrv"],
   ["Ergi Shehu", "Ergi516"],
   ["Eric Yun", "ericsngyun"],
+  ["Eva Ury", "evaSUry"],
   ["Feiyi Wu", "FreyaWu"],
   ["Gabriela Aquino", "aquinojardim"],
   ["Greg Panciera", "gpanciera"],
@@ -56,6 +58,7 @@ const people: string[][] = [
   ["James Nghiem", "jemzir"],
   ["Jasmine Noor", "jasnoo"],
   ["Jason Victor", "Theqwertypusher"],
+  ["Jesse Guerrero", "jguerrero35"],
   ["Jesse Rosengrant", "jrosengrant"],
   ["Jimmy Phy", "jimmally"],
   ["John Banks", "JBanks123"],
@@ -84,6 +87,7 @@ const people: string[][] = [
   ["Nathan Richardson", "BagelEnthusiast"],
   ["Ngoc Zwolinski", "ngoczwolinski"],
   ["Nick Huemmer", "ElDuke717"],
+  ["Oliver Cho", "Oliver-Cho"],
   ["Ozair Ghulam", "OzairGh"],
   ["Peng Dong", "d28601581"],
   ["Peter Lam", "dev-plam"],
@@ -122,7 +126,7 @@ export default function People(): JSX.Element {
         <div className="space-y-8 sm:space-y-12">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Version 24.0 Team
+              Version 25.0 Team
             </h2>
           </div>
           <ul
@@ -130,7 +134,7 @@ export default function People(): JSX.Element {
             className="mx-auto grid grid-cols-3 gap-x-8 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-4"
           >
             <>
-              {team24.map((person) => (
+              {team25.map((person) => (
                 <Profile key={person[1]} profile={person[1]} name={person[0]} />
               ))}
             </>
