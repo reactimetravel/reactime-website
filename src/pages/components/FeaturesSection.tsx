@@ -15,7 +15,7 @@ import React from "react";
 
 const features = [
   {
-    name: "Prop visualization",
+    name: "Prop Visualization",
     description:
       "See how the props flow down the component diagram",
     icon: CogIcon
