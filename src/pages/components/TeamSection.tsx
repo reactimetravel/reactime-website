@@ -6,7 +6,7 @@ import React from "react";
 const team25: string[][] = [
   ["Haider Ali", "hali03"],
   ["Jose Luis Sanchez", "JoseSanchez1996"],
-  ["Logan Nelson", "ljn16"],
+  ["Logan Nelsen", "ljn16"],
   ["Mel Koppens", "MelKoppens"]
 ];
 
