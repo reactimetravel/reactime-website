@@ -39,7 +39,7 @@ export default function LandingPage() {
                     <div>
                       <a
                         target="_blank"
-                        href="https://javascript.plainenglish.io/relaunching-reactime-updates-and-a-new-accessibility-feature-1f0fd3a5bd8c"
+                        href="https://medium.com/@loganjnelsen/reactime-v25-the-time-to-react-is-now-ace90e45a9c7"
                         className="inline-flex space-x-4"
                       >
                         {/* <span className="rounded px-2.5 py-1 text-sm font-semibold text-rose-500">
