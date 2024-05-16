@@ -17,7 +17,7 @@ const features = [
   {
     name: "Prop Visualization",
     description:
-      "See how the props flow down the component diagram",
+      "See how properties flow down the component tree",
     icon: CogIcon
   },
   {
