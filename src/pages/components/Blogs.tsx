@@ -2,23 +2,23 @@ import React from "react";
 
 const posts = [
   {
-    title: "ReacTime upgrade, it is here!",
-    href: "https://medium.com/@evaury/relaunching-reactime-updates-and-a-new-accessibility-feature-1f0fd3a5bd8c",
+    title: "Reactime v25: The Time to React is Now!",
+    href: "https://medium.com/@loganjnelsen/reactime-v25-the-time-to-react-is-now-ace90e45a9c7",
     category: {
       name: "React, Props, Visualization",
       href: "https://medium.com/tag/react",
     },
     description:
-      "React is back: Enjoy your props being passed down the components and made visible in an easy to see fashion both ...",
+      "React is still on top! React was the most popular JavaScript frontend framework of 2023 and continues to be among the most used frontend frameworks of any language. However, there is always room for innovation...",
     date: "May 17, 2024",
     datetime: "2024-05-17",
     imageUrl:
       "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     readingTime: "5 min",
     author: {
-      name: "Jose Luis Sanchez",
-      href: "https://medium.com/@evaury",
-      imageUrl: "https://avatars.githubusercontent.com/u/161394532?v=4",
+      name: "Logan Nelsen",
+      href: "https://medium.com/@loganjnelsen",
+      imageUrl: "https://avatars.githubusercontent.com/u/70453782?v=4",
     },
   },
   {
