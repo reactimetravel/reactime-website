@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactimeOverview from "../../../public/v25/GeneralDemoGif_V23.gif";
+import ReactimeOverview from "../../../public/v25/GeneralDemoGif_V25.gif";
 import SnapshotTimeTravel from "../../../public/v25/TimeTravelGif_V23.gif";
 import impExp from "../../../public/v25/ImportExportGif_V23.gif";
 
