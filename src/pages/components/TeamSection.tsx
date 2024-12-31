@@ -3,14 +3,19 @@ import { useState } from "react";
 import React from "react";
 
 // use this variable to display the most recent iteration team for Reactime
-const team25: string[][] = [
-  ["Haider Ali", "hali03"],
-  ["Jose Luis Sanchez", "JoseSanchez1996"],
-  ["Logan Nelsen", "ljn16"],
-  ["Mel Koppens", "MelKoppens"]
+const team26: string[][] = [
+  ["Garrett Chow", "garrettlchow"],
+  ["Ellie Simens", "elliesimens"],
+  ["Ragad Mohammed", "ragad-mohammed"],
+  ["Daniel Ryczek", "dryczek14"],
+  ["Patrice Pinardo", "pinardo88"]
 ];
 
 const people: string[][] = [
+  ["Haider Ali", "hali03"],
+  ["Jose Luis Sanchez", "JoseSanchez1996"],
+  ["Logan Nelsen", "ljn16"],
+  ["Mel Koppens", "MelKoppens"],
   ["Alex Gomez", "alexgomez9"],
   ["Alexander Landeros", "AlexanderLanderos"],
   ["Ali Rahman", "CourageWolf"],
@@ -126,15 +131,15 @@ export default function People(): JSX.Element {
         <div className="space-y-8 sm:space-y-12">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Version 25.0 Team
+              Version 26.0 Team
             </h2>
           </div>
           <ul
             role="list"
-            className="mx-auto grid grid-cols-3 gap-x-8 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-4"
+            className="mx-auto grid grid-cols-3 gap-x-8 gap-y-8 sm:grid-cols-5 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-5"
           >
             <>
-              {team25.map((person) => (
+              {team26.map((person) => (
                 <Profile key={person[1]} profile={person[1]} name={person[0]} />
               ))}
             </>
