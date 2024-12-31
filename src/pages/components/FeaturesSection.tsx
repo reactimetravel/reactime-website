@@ -14,14 +14,15 @@ import React from "react";
 
 const features = [
   {
-    name: "Prop Visualization",
-    description: "See how properties flow down the component tree",
-    icon: CogIcon,
+    name: "Time Travel Rendering",
+    description:
+      "Rewind to previous state changes from your DOM history with a simple click of a button",
+    icon: ClockIcon,
   },
   {
-    name: "Accessibility Debugging",
+    name: "Context Display Panel",
     description:
-      "Check how a screen reader reads your application per state change",
+      "Visualize the relationships of context providers and consumers, along with live context theme data",
     icon: EyeIcon,
   },
   {
@@ -31,10 +32,15 @@ const features = [
     icon: CameraIcon,
   },
   {
-    name: "Time Travel Rendering",
+    name: "Prop Visualization",
+    description: "See how properties flow down the component tree",
+    icon: CogIcon,
+  },
+  {
+    name: "Accessibility Debugging",
     description:
-      "Rewind to previous state changes from your DOM history with a simple click of a button",
-    icon: ClockIcon,
+      "Check how a screen reader reads your application per state change",
+    icon: EyeIcon,
   },
   {
     name: "Action Comparison & Snapshot Series",
@@ -49,6 +55,12 @@ const features = [
     icon: PresentationChartLineIcon,
   },
   {
+    name: "State History Diffing",
+    description:
+      "View the exact value differences in state changes, organized by snapshot",
+    icon: ArrowPathIcon,
+  },
+  {
     name: "Download State History",
     description:
       "Save your state history as a JSON source file for future reference",
@@ -59,12 +71,6 @@ const features = [
     description:
       "Visualize the mapping of Atoms and Selectors to components in Recoil Apps",
     icon: MapIcon,
-  },
-  {
-    name: "Context Display Panel",
-    description:
-      "Visualize the relationships of context providers and consumers, along with live context theme data",
-    icon: EyeIcon,
   },
 ];
 
