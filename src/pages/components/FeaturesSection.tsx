@@ -9,22 +9,20 @@ import {
   PresentationChartLineIcon,
   MapIcon,
   EyeIcon,
-
 } from "@heroicons/react/24/outline";
 import React from "react";
 
 const features = [
   {
     name: "Prop Visualization",
-    description:
-      "See how properties flow down the component tree",
-    icon: CogIcon
+    description: "See how properties flow down the component tree",
+    icon: CogIcon,
   },
   {
     name: "Accessibility Debugging",
     description:
       "Check how a screen reader reads your application per state change",
-    icon: EyeIcon
+    icon: EyeIcon,
   },
   {
     name: "State SnapShot Display",
@@ -62,6 +60,12 @@ const features = [
       "Visualize the mapping of Atoms and Selectors to components in Recoil Apps",
     icon: MapIcon,
   },
+  {
+    name: "Context Display Panel",
+    description:
+      "Visualize the relationships of context providers and consumers, along with live context theme data",
+    icon: EyeIcon,
+  },
 ];
 
 export default function FeaturesSection() {
@@ -74,7 +78,7 @@ export default function FeaturesSection() {
         </p>
         <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
           Reactime is a developer tool that is compatible with react-based
-          framework applications. It is a full of features that will make life
+          framework applications. It is full of features that will make life
           easier as a developer. From time-travel debugging to state snapshot
           display, check out how using Reactime will improve the developer
           experience!
