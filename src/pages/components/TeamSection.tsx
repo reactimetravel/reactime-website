@@ -4,13 +4,18 @@ import React from "react";
 
 // use this variable to display the most recent iteration team for Reactime
 const team25: string[][] = [
-  ["Haider Ali", "hali03"],
-  ["Jose Luis Sanchez", "JoseSanchez1996"],
-  ["Logan Nelsen", "ljn16"],
-  ["Mel Koppens", "MelKoppens"]
+  ["Garrett Chow", "garrettlchow"],
+  ["Ellie Simens", "elliesimens"],
+  ["Ragad Mohammed", "ragad-mohammed"],
+  ["Daniel Ryczek", "dryczek14"],
+  ["Patrice Pinardo", "pinardo88"]
 ];
 
 const people: string[][] = [
+  ["Haider Ali", "hali03"],
+  ["Jose Luis Sanchez", "JoseSanchez1996"],
+  ["Logan Nelsen", "ljn16"],
+  ["Mel Koppens", "MelKoppens"],
   ["Alex Gomez", "alexgomez9"],
   ["Alexander Landeros", "AlexanderLanderos"],
   ["Ali Rahman", "CourageWolf"],
