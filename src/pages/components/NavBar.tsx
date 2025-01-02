@@ -38,16 +38,8 @@ export default function NavBar() {
               <div className="flex items-center">
                 <div className="ml-6 flex-shrink-0">
                   <Image
-                    className="block h-9 w-auto lg:hidden"
-                    //src="https://i.imgur.com/ELBAyVb.png"
-                    //src="blackWhiteSquareIcon.png"
-                    src={logo}
-                    alt="Logo"
-                  />
-                  <Image
-                    className="hidden h-9 w-auto lg:block"
-                    //src="https://i.imgur.com/ELBAyVb.png"
-                    // src="blackWhiteSquareIcon.png"
+                    width={45}
+                    height={45}
                     src={logo}
                     alt="Logo"
                   />
