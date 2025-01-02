@@ -39,7 +39,7 @@ export default function LandingPage() {
                     <div>
                       <a
                         target="_blank"
-                        href="https://medium.com/@loganjnelsen/reactime-v25-the-time-to-react-is-now-ace90e45a9c7"
+                        href="https://medium.com/@elliesimens/reactime-reimagined-a-major-leap-forward-in-react-debugging-7b76a0a66f42"
                         className="inline-flex space-x-4"
                       >
                         {/* <span className="rounded px-2.5 py-1 text-sm font-semibold text-rose-500">
@@ -56,21 +56,18 @@ export default function LandingPage() {
                     </div>
                     <div className="mt-6 sm:max-w-xl">
                       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        Reactime <br /> a time traveling debugger for modern
+                        Reactime: <br /> an all-in-one developer tool for
                         React-based applications
                       </h1>
                       <p className="mt-6 text-xl text-gray-500">
-                        Download the Google Chrome Extension that rewinds time
-                        and replays previous versions of stateful React
-                        components. Now compatible with Next.js and Remix
-                        applications*.
+                        Download the Google Chrome Extension that rewinds time and provides comprehensive insights into the stateful behavior of your React components.
                       </p>
                       {/* This code is for the newsletter */}
                       {/* <p className="className=mt-6 mt-10 text-xl text-gray-500">
                         Sign up for our newsletter!
                       </p> */}
                       <p className="mt-6 text-sm text-gray-500">
-                        Beta Support for Remix Applications*
+                        Compatible with Next.js, Remix, and Recoil
                       </p>
                     </div>
                     {/* <form

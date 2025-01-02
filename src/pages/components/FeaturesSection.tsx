@@ -14,56 +14,57 @@ import React from "react";
 
 const features = [
   {
-    name: "Time Travel Rendering",
-    description:
-      "Rewind to previous state changes from your DOM history with a simple click of a button",
-    icon: ClockIcon,
-  },
-  {
-    name: "Context Display Panel",
-    description:
-      "Visualize the relationships of context providers and consumers, along with live context theme data",
-    icon: EyeIcon,
-  },
-  {
     name: "State SnapShot Display",
     description:
-      "See your application state in an interactive format for clear and concise state management",
+      "See your application state in an interactive format for clear and concise state management, all recorded state changes are saved in snapshots.",
     icon: CameraIcon,
   },
   {
+    name: "Time Travel Rendering",
+    description:
+      "Rewind to previous state changes by jumping to a specific snapshot, using the time travel slider, or playing through a series of snapshots with the play button.",
+    icon: ClockIcon,
+  },
+  {
+    name: "Context Data Display",
+    description:
+      "Visualize the relationships of context providers and consumers, along with live context theme data, properties and values.",
+    icon: EyeIcon,
+  },
+  {
     name: "Prop Visualization",
-    description: "See how properties flow down the component tree",
+    description:
+      "View the component map and track component relationships, as well as the flow of properties down the component tree.",
     icon: CogIcon,
   },
   {
     name: "Accessibility Debugging",
     description:
-      "Check how a screen reader reads your application per state change",
+      "Prioritize accessibility by analyzing how a screen reader interprets your application per state change.",
     icon: EyeIcon,
   },
   {
     name: "Components Performance Display",
     description:
-      "Visualize the latency trends for component render times on each state change",
+      "Analyze the latency trends for component render times, organized per component, per state change.",
     icon: PresentationChartLineIcon,
   },
   {
     name: "State History Diffing",
     description:
-      "View the exact value differences in state changes, organized by snapshot",
+      "Compare snapshots in order to pinpoint the exact difference in property values per state change.",
     icon: ArrowPathIcon,
   },
   {
-    name: "Download State History",
+    name: "Download / Upload State History",
     description:
-      "Save your state history as a JSON source file for future reference",
+      "Download or upload a JSON source file of your application's state history to resume or share your working session.",
     icon: ArrowDownTrayIcon,
   },
   {
     name: "Atom and Selector Relationships",
     description:
-      "Visualize the mapping of Atoms and Selectors to components in Recoil Apps",
+      "Visualize the detailed mapping of Atoms and Selectors to their associated components in Recoil applications.",
     icon: MapIcon,
   },
 ];
@@ -77,11 +78,12 @@ export default function FeaturesSection() {
           What is Reactime?
         </p>
         <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-          Reactime is a developer tool that is compatible with react-based
-          framework applications. It is full of features that will make life
-          easier as a developer. From time-travel debugging to state snapshot
-          display, check out how using Reactime will improve the developer
-          experience!
+          Reactime is an open-source Chrome extension with a comprehensive suite
+          of tools designed to elevate the debugging process. From its intuitive
+          component map and time-travel snapshots to its accessibility tree,
+          dynamic visualizations of web metrics, rendering statistics, and
+          comprehensive diffing history, Reactime provides an all-in-one
+          solution for optimizing complex React applications.
         </p>
         <div className="mt-20">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">

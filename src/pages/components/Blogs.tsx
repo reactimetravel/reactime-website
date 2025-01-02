@@ -2,6 +2,26 @@ import React from "react";
 
 const posts = [
   {
+    title: "Reactime Reimagined: A Major Leap Forward in React Debugging",
+    href: "https://medium.com/@elliesimens/reactime-reimagined-a-major-leap-forward-in-react-debugging-7b76a0a66f42",
+    category: {
+      name: "React, State Management, Performance Optimization",
+      href: "https://medium.com/tag/react",
+    },
+    description:
+      "Today, we’re thrilled to announce Reactime v26. Calling this an update would be an understatement–Reactime v26 is a complete overhaul, introducing groundbreaking new features and transforming its design. This release delivers a more intuitive, efficient, and refined experience for developers, setting a new standard for React debugging tools.",
+    date: "January 2, 2025",
+    datetime: "2025-01-02",
+    imageUrl:
+      "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    readingTime: "5 min",
+    author: {
+      name: "Ellie Simens",
+      href: "https://medium.com/@elliesimens",
+      imageUrl: "https://avatars.githubusercontent.com/u/183773690?v=4",
+    },
+  },
+  {
     title: "Reactime v25: The Time to React is Now!",
     href: "https://medium.com/@loganjnelsen/reactime-v25-the-time-to-react-is-now-ace90e45a9c7",
     category: {
@@ -41,26 +61,26 @@ const posts = [
       imageUrl: "https://avatars.githubusercontent.com/u/147180726?v=4",
     },
   },
-  {
-    title: "Reactime Renovation: Updates Coming in Version 23.0!",
-    href: "https://medium.com/@liam.donaher/reactime-renovation-updates-coming-in-version-23-0-37b2ef2a2771",
-    category: {
-      name: "React, Open Source, Debugging, Optimization",
-      href: "https://medium.com/tag/react",
-    },
-    description:
-      "Reactime is a lightweight chrome extension that sheds light on users’ React applications. With features that include a node diagram of React components, render-time analytics, state snapshots and time travel debugging...",
-    date: "January 11, 2024",
-    datetime: "2024-01-11",
-    imageUrl:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyNDYxNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
-    readingTime: "4 min",
-    author: {
-      name: "Liam Donaher",
-      href: "https://medium.com/@liam.donaher",
-      imageUrl: "https://avatars.githubusercontent.com/u/147748756?v=4",
-    },
-  },
+  // {
+  //   title: "Reactime Renovation: Updates Coming in Version 23.0!",
+  //   href: "https://medium.com/@liam.donaher/reactime-renovation-updates-coming-in-version-23-0-37b2ef2a2771",
+  //   category: {
+  //     name: "React, Open Source, Debugging, Optimization",
+  //     href: "https://medium.com/tag/react",
+  //   },
+  //   description:
+  //     "Reactime is a lightweight chrome extension that sheds light on users’ React applications. With features that include a node diagram of React components, render-time analytics, state snapshots and time travel debugging...",
+  //   date: "January 11, 2024",
+  //   datetime: "2024-01-11",
+  //   imageUrl:
+  //     "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyNDYxNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+  //   readingTime: "4 min",
+  //   author: {
+  //     name: "Liam Donaher",
+  //     href: "https://medium.com/@liam.donaher",
+  //     imageUrl: "https://avatars.githubusercontent.com/u/147748756?v=4",
+  //   },
+  // },
   // {
   //   title: "Reactime: Real-time Debugging, Timeless Results",
   //   href: "https://medium.com/@kelvinmirhan/reactime-real-time-debugging-timeless-results-3f163b721d01",
