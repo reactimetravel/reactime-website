@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import ReactimeOverview from "../../../public/v25/GeneralDemoGif_V25.gif";
-import SnapshotTimeTravel from "../../../public/v25/TimeTravelGif_V23.gif";
-import impExp from "../../../public/v25/ImportExportGif_V23.gif";
+import ReactimeOverview from "../../../public/v26/GeneralDemoGif_V26.gif";
+import SnapshotTimeTravel from "../../../public/v26/TimeTravelGif_V26.gif";
+import impExp from "../../../public/v26/ImportExportGif_V26.gif";
+import ProviderConsumer from "../../../public/v26/ProviderConsumer_V26.gif";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -32,7 +33,11 @@ const GifFeatures = () => {
       // className="inline-flex gap-x-9"
     >
       {section === i && (
-        <div className="inline-flex gap-x-14 justify-center items-center">
+        //<div className="inline-flex gap-x-14 justify-center items-center">
+        <div className="flex flex-col items-center">
+          <h1 className="italic text-3xl font-normal text-center pb-28">
+            {description}
+          </h1>
           <Image
             className="image"
             src={gif}
@@ -40,7 +45,6 @@ const GifFeatures = () => {
             // layout="intrinsic"
             alt=""
           />
-          <h1 className="text-3xl w-80 font-normal">{description}</h1>
         </div>
       )}
     </motion.div>
@@ -48,14 +52,14 @@ const GifFeatures = () => {
 
   return (
     <div>
-      <h2 className="pt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+      <h2 className="pt-20 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
         Reactime Demo!
       </h2>
-      <div className="mt-10 xs:pt-20 mx-8 flex flex-row items-center justify-center gap-8">
+      <div className="mt-12 xs:pt-20 mx-8 flex flex-row items-center justify-center gap-8">
         {sectionComponents}
       </div>
       <div className="xs:flex-col container mx-auto flex-col font-bold sm:flex-col md:flex-col lg:flex-row">
-        <div className="m-auto pb-3">{imageComponents}</div>
+        <div className="m-auto">{imageComponents}</div>
       </div>
     </div>
   );
@@ -73,6 +77,11 @@ const sections = [
     description:
       "Simulate any state change from your DOM history, with a simple click of a button",
     gif: SnapshotTimeTravel,
+  },
+  {
+    title: "Provider/ Consumer Tab",
+    description: "Visualize the provider x consumer relationships in your application",
+    gif: ProviderConsumer,
   },
   {
     title: "Import & Export",

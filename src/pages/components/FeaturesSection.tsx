@@ -43,12 +43,6 @@ const features = [
     icon: EyeIcon,
   },
   {
-    name: "Action Comparison & Snapshot Series",
-    description:
-      "Save a series of state snapshots and make comparisons to analyze changes in component render performance",
-    icon: ArrowPathIcon,
-  },
-  {
     name: "Components Performance Display",
     description:
       "Visualize the latency trends for component render times on each state change",
