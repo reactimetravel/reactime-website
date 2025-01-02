@@ -41,6 +41,7 @@ const GifFeatures = () => {
           <Image
             className="image"
             src={gif}
+            width={1500}
             style={{}}
             // layout="intrinsic"
             alt=""
