@@ -22,7 +22,8 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.mjs",
-    "src/pages/components/GifFeatures.js"
+    "src/pages/components/GifFeatures.js",
+    "./declarations.d.ts"
   ],
   "exclude": ["node_modules"]
 }

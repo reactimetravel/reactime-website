@@ -1,6 +1,8 @@
 import { Fragment, useEffect, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
+import logo from "../../../public/reactimeLogo.png"
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -35,16 +37,18 @@ export default function NavBar() {
             <div className="mx-6 flex h-16 items-center sm:justify-between md:justify-between lg:justify-between">
               <div className="flex items-center">
                 <div className="ml-6 flex-shrink-0">
-                  <img
+                  <Image
                     className="block h-9 w-auto lg:hidden"
-                    src="https://i.imgur.com/ELBAyVb.png"
+                    //src="https://i.imgur.com/ELBAyVb.png"
                     //src="blackWhiteSquareIcon.png"
+                    src={logo}
                     alt="Logo"
                   />
-                  <img
+                  <Image
                     className="hidden h-9 w-auto lg:block"
-                    src="https://i.imgur.com/ELBAyVb.png"
+                    //src="https://i.imgur.com/ELBAyVb.png"
                     // src="blackWhiteSquareIcon.png"
+                    src={logo}
                     alt="Logo"
                   />
                 </div>
