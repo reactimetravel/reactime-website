@@ -7,7 +7,7 @@ const team26: string[][] = [
   ["Garrett Chow", "garrettlchow"],
   ["Ellie Simens", "elliesimens"],
   ["Ragad Mohammed", "ragad-mohammed"],
-  ["Daniel Ryczek", "dryczek14"],
+  ["Daniel Ryczek", "dryczek01"],
   ["Patrice Pinardo", "pinardo88"]
 ];
 
