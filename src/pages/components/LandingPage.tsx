@@ -201,7 +201,7 @@ export default function LandingPage() {
         <footer className="gray-900 mt-8 bg-[#333333] sm:mt-8">
           <div className="mx-auto max-w-md overflow-hidden py-3 px-4 pb-10 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
             <p className="mt-8 text-center text-base text-gray-400">
-              &copy; 2024 Reactime, All rights reserved.
+              &copy; 2025 Reactime, All rights reserved.
             </p>
           </div>
         </footer>
