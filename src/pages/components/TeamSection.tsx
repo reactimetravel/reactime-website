@@ -8,7 +8,8 @@ const team26: string[][] = [
   ["Ellie Simens", "elliesimens"],
   ["Ragad Mohammed", "ragad-mohammed"],
   ["Daniel Ryczek", "dryczek01"],
-  ["Patrice Pinardo", "pinardo88"]
+  ["Patrice Pinardo", "pinardo88"],
+  ["Feyikemi Ogunsanya", "Agboolafeyikemi"],
 ];
 
 const people: string[][] = [
@@ -136,7 +137,7 @@ export default function People(): JSX.Element {
           </div>
           <ul
             role="list"
-            className="mx-auto grid grid-cols-3 gap-x-8 gap-y-8 sm:grid-cols-5 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-5"
+            className="mx-auto grid grid-cols-3 gap-x-8 gap-y-8 sm:grid-cols-6 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6"
           >
             <>
               {team26.map((person) => (
